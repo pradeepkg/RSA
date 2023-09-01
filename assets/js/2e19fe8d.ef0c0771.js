@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[6347],{6159:e=>{e.exports=JSON.parse('{"label":"ITSM","permalink":"/RSA/blog/tags/itsm","allTagsPath":"/RSA/blog/tags","count":2}')}}]);
