@@ -27,3 +27,13 @@
   background-size: cover;
   margin-right: 5px; 
 }
+
+.powershell::before {
+  content: "";
+  display: inline-block; 
+  width: 22px; 
+  height: 22px; 
+  background-image:url('./img/source/icons8-powershell-250.svg');
+  background-size: cover;
+  margin-right: 5px; 
+}
