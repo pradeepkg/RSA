@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[6592],{57757:e=>{e.exports=JSON.parse('{"label":"Okta","permalink":"/RSA/blog/tags/okta","allTagsPath":"/RSA/blog/tags","count":1}')}}]);
