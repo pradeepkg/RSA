@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7302],{58326:e=>{e.exports=JSON.parse('{"label":"RightFax","permalink":"/RSA/blog/tags/right-fax","allTagsPath":"/RSA/blog/tags","count":1}')}}]);

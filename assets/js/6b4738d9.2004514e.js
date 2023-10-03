@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8009],{51694:a=>{a.exports=JSON.parse('{"label":"Informatica","permalink":"/RSA/blog/tags/informatica","allTagsPath":"/RSA/blog/tags","count":1}')}}]);

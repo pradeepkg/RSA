@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9947],{35554:e=>{e.exports=JSON.parse('{"label":"OpenText","permalink":"/RSA/blog/tags/open-text","allTagsPath":"/RSA/blog/tags","count":1}')}}]);
