@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[3963],{54847:e=>{e.exports=JSON.parse('{"label":"Deltek","permalink":"/RSA/blog/tags/deltek","allTagsPath":"/RSA/blog/tags","count":1}')}}]);

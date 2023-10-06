@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[648],{84905:e=>{e.exports=JSON.parse('{"label":"Business Intelligence","permalink":"/RSA/blog/tags/business-intelligence","allTagsPath":"/RSA/blog/tags","count":1}')}}]);
