@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[593],{31421:a=>{a.exports=JSON.parse('{"label":"Amazon","permalink":"/RSA/blog/tags/amazon","allTagsPath":"/RSA/blog/tags","count":2}')}}]);
