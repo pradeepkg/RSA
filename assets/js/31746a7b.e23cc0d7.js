@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4770],{61674:e=>{e.exports=JSON.parse('{"label":"SAP","permalink":"/RSA/blog/tags/sap","allTagsPath":"/RSA/blog/tags","count":1}')}}]);
