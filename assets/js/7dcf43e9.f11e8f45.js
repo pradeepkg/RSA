@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1478],{25118:e=>{e.exports=JSON.parse('{"label":"BPC","permalink":"/RSA/blog/tags/bpc","allTagsPath":"/RSA/blog/tags","count":1}')}}]);

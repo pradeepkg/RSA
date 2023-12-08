@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[671],{82129:e=>{e.exports=JSON.parse('{"label":"Freshservice","permalink":"/RSA/blog/tags/freshservice","allTagsPath":"/RSA/blog/tags","count":1,"unlisted":false}')}}]);

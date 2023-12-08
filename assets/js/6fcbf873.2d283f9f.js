@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[7885],{52712:e=>{e.exports=JSON.parse('{"label":"WebFOCUS","permalink":"/RSA/blog/tags/web-focus","allTagsPath":"/RSA/blog/tags","count":1,"unlisted":false}')}}]);

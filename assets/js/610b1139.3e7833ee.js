@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4164],{794:e=>{e.exports=JSON.parse('{"title":"Admin","slug":"/category/admin","permalink":"/RSA/docs/category/admin","navigation":{"previous":{"title":"Logout User","permalink":"/RSA/docs/authentication/logoutUser"},"next":{"title":"About","permalink":"/RSA/docs/admin/about"}}}')}}]);

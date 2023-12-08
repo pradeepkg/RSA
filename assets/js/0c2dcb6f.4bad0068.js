@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[6530],{26382:e=>{e.exports=JSON.parse('{"label":"DevOps","permalink":"/RSA/blog/tags/dev-ops","allTagsPath":"/RSA/blog/tags","count":1}')}}]);

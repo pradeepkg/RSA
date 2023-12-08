@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9604],{55027:e=>{e.exports=JSON.parse('{"label":"Jira","permalink":"/RSA/blog/tags/jira","allTagsPath":"/RSA/blog/tags","count":2}')}}]);

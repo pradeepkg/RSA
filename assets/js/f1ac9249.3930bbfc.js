@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4328],{63292:e=>{e.exports=JSON.parse('{"permalink":"/RSA/blog/tags/saa-s/page/4","page":4,"postsPerPage":10,"totalPages":4,"totalCount":31,"previousPage":"/RSA/blog/tags/saa-s/page/3","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

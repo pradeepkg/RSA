@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9706],{98960:e=>{e.exports=JSON.parse('{"label":"Redshift","permalink":"/RSA/blog/tags/redshift","allTagsPath":"/RSA/blog/tags","count":1}')}}]);

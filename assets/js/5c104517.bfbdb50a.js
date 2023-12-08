@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[9706],{98960:s=>{s.exports=JSON.parse('{"label":"Redshift","permalink":"/RSA/blog/tags/redshift","allTagsPath":"/RSA/blog/tags","count":1,"unlisted":false}')}}]);

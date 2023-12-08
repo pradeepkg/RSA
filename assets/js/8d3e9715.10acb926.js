@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7871],{49188:a=>{a.exports=JSON.parse('{"label":"Datadog","permalink":"/RSA/blog/tags/datadog","allTagsPath":"/RSA/blog/tags","count":1}')}}]);
