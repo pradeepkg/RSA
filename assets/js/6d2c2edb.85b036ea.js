@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[50521],{12364:s=>{s.exports=JSON.parse('{"label":"Basic","permalink":"/RSA/basics/tags/basic","allTagsPath":"/RSA/basics/tags","count":1,"unlisted":false}')}}]);

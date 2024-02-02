@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[6530],{26382:s=>{s.exports=JSON.parse('{"label":"DevOps","permalink":"/RSA/blog/tags/dev-ops","allTagsPath":"/RSA/blog/tags","count":1,"unlisted":false}')}}]);

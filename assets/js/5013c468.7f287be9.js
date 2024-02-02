@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[5012],{32097:s=>{s.exports=JSON.parse('{"label":"GitHub","permalink":"/RSA/blog/tags/git-hub","allTagsPath":"/RSA/blog/tags","count":1,"unlisted":false}')}}]);

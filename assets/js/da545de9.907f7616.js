@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[8712],{38684:s=>{s.exports=JSON.parse('{"label":"CostPoint","permalink":"/RSA/blog/tags/cost-point","allTagsPath":"/RSA/blog/tags","count":1,"unlisted":false}')}}]);
