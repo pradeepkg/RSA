@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[31674],{2949:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"MangoApps","permalink":"/RSA/connectors/afx-mangoapps","unlisted":false}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[31674],{2949:s=>{s.exports=JSON.parse('{"title":"All posts","items":[{"title":"Microsoft Dynamics 365","permalink":"/RSA/connectors/afx-dynamics365","unlisted":false},{"title":"MangoApps","permalink":"/RSA/connectors/afx-mangoapps","unlisted":false}]}')}}]);

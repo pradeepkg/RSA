@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[95052],{64853:s=>{s.exports=JSON.parse('{"label":"Microsoft","permalink":"/RSA/connectors/tags/microsoft","allTagsPath":"/RSA/connectors/tags","count":1,"unlisted":false}')}}]);
