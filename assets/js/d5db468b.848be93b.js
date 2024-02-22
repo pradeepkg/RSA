@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[15616],{4199:s=>{s.exports=JSON.parse('{"label":"MangoApps","permalink":"/RSA/connectors/tags/mango-apps","allTagsPath":"/RSA/connectors/tags","count":1,"unlisted":false}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[91732],{49018:s=>{s.exports=JSON.parse('{"label":"Data Processors","permalink":"/RSA/basics/tags/data-processors","allTagsPath":"/RSA/basics/tags","count":3,"unlisted":false}')}}]);

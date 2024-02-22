@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[48556],{19611:s=>{s.exports=JSON.parse('{"label":"SaaS","permalink":"/RSA/connectors/tags/saa-s","allTagsPath":"/RSA/connectors/tags","count":2,"unlisted":false}')}}]);
