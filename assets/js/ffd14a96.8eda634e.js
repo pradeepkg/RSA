@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[19162],{60847:a=>{a.exports=JSON.parse('{"label":"Learning Management","permalink":"/RSA/blog/tags/learning-management","allTagsPath":"/RSA/blog/tags","count":1,"unlisted":false}')}}]);

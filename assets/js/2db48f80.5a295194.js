@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[1145],{87329:e=>{e.exports=JSON.parse('{"label":"Eletive","permalink":"/RSA/connectors/tags/eletive","allTagsPath":"/RSA/connectors/tags","count":1,"unlisted":false}')}}]);

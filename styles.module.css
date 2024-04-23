@@ -1,0 +1,39 @@
+.curl::before {
+  content: "";
+  display: inline-block; 
+  width: 20px; 
+  height: 20px; 
+  background-image:url('./img/source/curl-svgrepo-com.svg');
+  background-size: cover;
+  margin-right: 5px; 
+}
+
+.python::before {
+  content: "";
+  display: inline-block; 
+  width: 20px; 
+  height: 20px; 
+  background-image:url('./img/source/python-svgrepo-com.svg');
+  background-size: cover;
+  margin-right: 5px; 
+}
+
+.nodejs::before {
+  content: "";
+  display: inline-block; 
+  width: 20px; 
+  height: 20px; 
+  background-image:url('./img/source/nodejs-icon-logo-svgrepo-com.svg');
+  background-size: cover;
+  margin-right: 5px; 
+}
+
+.powershell::before {
+  content: "";
+  display: inline-block; 
+  width: 22px; 
+  height: 22px; 
+  background-image:url('./img/source/icons8-powershell-250.svg');
+  background-size: cover;
+  margin-right: 5px; 
+}

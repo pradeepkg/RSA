@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[20102],{57421:s=>{s.exports=JSON.parse('{"label":"Genesys","permalink":"/RSA/blog/tags/genesys","allTagsPath":"/RSA/blog/tags","count":1,"unlisted":false}')}}]);

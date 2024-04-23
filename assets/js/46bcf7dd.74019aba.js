@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[5633],{82137:e=>{e.exports=JSON.parse('{"label":"Epic","permalink":"/RSA/blog/tags/epic","allTagsPath":"/RSA/blog/tags","count":1,"unlisted":false}')}}]);

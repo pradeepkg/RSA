@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[96601],{79713:e=>{e.exports=JSON.parse('{"label":"iSeries","permalink":"/RSA/blog/tags/i-series","allTagsPath":"/RSA/blog/tags","count":1,"unlisted":false}')}}]);

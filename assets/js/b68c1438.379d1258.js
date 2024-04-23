@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[2218],{35152:e=>{e.exports=JSON.parse('{"title":"Rules","slug":"/category/rules","permalink":"/RSA/docs/category/rules","navigation":{"previous":{"title":"Upload Coverage","permalink":"/RSA/docs/review/uploadCoverage"},"next":{"title":"Process Rule","permalink":"/RSA/docs/rules/processRule"}}}')}}]);

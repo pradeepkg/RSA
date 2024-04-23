@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[8938],{15985:a=>{a.exports=JSON.parse('{"label":"Workday","permalink":"/RSA/blog/tags/workday","allTagsPath":"/RSA/blog/tags","count":1,"unlisted":false}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[48022],{5369:s=>{s.exports=JSON.parse('{"label":"Sumo Logic","permalink":"/RSA/blog/tags/sumo-logic","allTagsPath":"/RSA/blog/tags","count":1,"unlisted":false}')}}]);
