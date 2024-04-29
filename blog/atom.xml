@@ -63,40 +63,23 @@
 <p>This section explains the process of setting up HubSpot for integration with G&amp;L.</p>
 <p><strong>Steps</strong></p>
 <ol>
-<li>
-<p>Login to HubSpot <a href="https://app.hubspot.com/" target="_blank" rel="noopener noreferrer">https://app.hubspot.com/</a>.</p>
-</li>
-<li>
-<p>On the right hand corner, click on <strong>Profile &amp; Preferences</strong>.<br><br><img decoding="async" loading="lazy" alt="Alt text" src="https://github.com/RSA/assets/images/app-1-43cdf6d8268bc2ab8421210c61839c59.png" width="309" height="220" class="img_ev3q"></p>
-</li>
-<li>
-<p>Click on <strong>Private apps</strong> under <strong>Integrations</strong>.</p>
-</li>
-<li>
-<p>Click on <strong>Create a private app</strong>.<br><br><img decoding="async" loading="lazy" alt="Alt text" src="https://github.com/RSA/assets/images/app-2-7b6556f77155f63c57a29b29f473a647.png" width="1046" height="703" class="img_ev3q"></p>
-</li>
-<li>
-<p>Provide a suitable application name.<br><br><img decoding="async" loading="lazy" alt="Alt text" src="https://github.com/RSA/assets/images/app-3-4202dcd4f0de7395954cfd833f1ce7c5.png" width="729" height="650" class="img_ev3q"></p>
-</li>
-<li>
-<p>Click on <em><strong>Scopes</strong></em> tab.</p>
-</li>
-<li>
-<p>Provide the the following scopes.</p>
+<li>Login to HubSpot <a href="https://app.hubspot.com/" target="_blank" rel="noopener noreferrer">https://app.hubspot.com/</a>.</li>
+<li>On the right hand corner, click on <strong>Profile &amp; Preferences</strong>.<br><br><img decoding="async" loading="lazy" alt="Alt text" src="https://github.com/RSA/assets/images/app-1-43cdf6d8268bc2ab8421210c61839c59.png" width="309" height="220" class="img_ev3q"></li>
+<li>Click on <strong>Private apps</strong> under <strong>Integrations</strong>.</li>
+<li>Click on <strong>Create a private app</strong>.<br><br><img decoding="async" loading="lazy" alt="Alt text" src="https://github.com/RSA/assets/images/app-2-7b6556f77155f63c57a29b29f473a647.png" width="1046" height="703" class="img_ev3q"></li>
+<li>Provide a suitable application name.<br><br><img decoding="async" loading="lazy" alt="Alt text" src="https://github.com/RSA/assets/images/app-3-4202dcd4f0de7395954cfd833f1ce7c5.png" width="729" height="650" class="img_ev3q"></li>
+<li>Click on <em><strong>Scopes</strong></em> tab.</li>
+<li>Provide the the following scopes.<!-- -->
 <ul>
 <li>crm.objects.users.read</li>
 <li>settings.users.teams.read</li>
+<li>settings.users.read</li>
+<li>crm.objects.owners.read</li>
 </ul>
 </li>
-<li>
-<p>Click <strong>Create app</strong>.<br><br><img decoding="async" loading="lazy" alt="Alt text" src="https://github.com/RSA/assets/images/app-4-ee0a13420b01e039be976d03a89756c1.png" width="919" height="715" class="img_ev3q"></p>
-</li>
-<li>
-<p>Click on <strong>Continue creating</strong>.<br><br><img decoding="async" loading="lazy" alt="Alt text" src="https://github.com/RSA/assets/images/app-5-50698a10847425b9da4bc026dddf9491.png" width="595" height="319" class="img_ev3q"></p>
-</li>
-<li>
-<p>Copy the token and retain for use with G&amp;L.<br><br><img decoding="async" loading="lazy" alt="Alt text" src="https://github.com/RSA/assets/images/app-6-24e045c847fce1a32de86d82509cac9f.png" width="534" height="494" class="img_ev3q"></p>
-</li>
+<li>Click <strong>Create app</strong>.<br><br><img decoding="async" loading="lazy" alt="Alt text" src="https://github.com/RSA/assets/images/app-4-ee0a13420b01e039be976d03a89756c1.png" width="919" height="715" class="img_ev3q"></li>
+<li>Click on <strong>Continue creating</strong>.<br><br><img decoding="async" loading="lazy" alt="Alt text" src="https://github.com/RSA/assets/images/app-5-50698a10847425b9da4bc026dddf9491.png" width="595" height="319" class="img_ev3q"></li>
+<li>Copy the token and retain for use with G&amp;L.<br><br><img decoding="async" loading="lazy" alt="Alt text" src="https://github.com/RSA/assets/images/app-6-24e045c847fce1a32de86d82509cac9f.png" width="534" height="494" class="img_ev3q"></li>
 </ol>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="api-examples">API Examples<a href="https://github.com/RSA/blog/hubspot#api-examples" class="hash-link" aria-label="Direct link to API Examples" title="Direct link to API Examples">​</a></h2>
