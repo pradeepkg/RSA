@@ -69,13 +69,12 @@
 <li>Click on <strong>Private apps</strong> under <strong>Integrations</strong>.</li>
 <li>Click on <strong>Create a private app</strong>.<br><br><img decoding="async" loading="lazy" alt="Alt text" src="https://github.com/RSA/assets/images/app-2-7b6556f77155f63c57a29b29f473a647.png" width="1046" height="703" class="img_ev3q"></li>
 <li>Provide a suitable application name.<br><br><img decoding="async" loading="lazy" alt="Alt text" src="https://github.com/RSA/assets/images/app-3-4202dcd4f0de7395954cfd833f1ce7c5.png" width="729" height="650" class="img_ev3q"></li>
-<li>Click on <em><strong>Scopes</strong></em> tab.</li>
-<li>Provide the the following scopes.<!-- -->
+<li>Click on <em><strong>Scopes</strong></em> tab and provide the the following scopes.<!-- -->
 <ul>
-<li>crm.objects.users.read</li>
-<li>settings.users.teams.read</li>
-<li>settings.users.read</li>
-<li>crm.objects.owners.read</li>
+<li><code>crm.objects.users.read</code></li>
+<li><code>settings.users.teams.read</code></li>
+<li><code>settings.users.read</code></li>
+<li><code>crm.objects.owners.read</code></li>
 </ul>
 </li>
 <li>Click <strong>Create app</strong>.<br><br><img decoding="async" loading="lazy" alt="Alt text" src="https://github.com/RSA/assets/images/app-4-ee0a13420b01e039be976d03a89756c1.png" width="919" height="715" class="img_ev3q"></li>
@@ -535,6 +534,7 @@ Entitlements ❌</p></td></tr></tbody></table>
             <category>ClayHR</category>
             <category>BizMerlinHR</category>
             <category>HCM</category>
+            <category>Identities</category>
         </item>
         <item>
             <title><![CDATA[BambooHR]]></title>
@@ -588,6 +588,7 @@ Entitlements ❌</p></td></tr></tbody></table>
             <category>SaaS</category>
             <category>BambooHR</category>
             <category>HCM</category>
+            <category>Payroll</category>
         </item>
         <item>
             <title><![CDATA[Oracle Fusion Cloud]]></title>

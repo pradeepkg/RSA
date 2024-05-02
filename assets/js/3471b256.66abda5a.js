@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[65343],{96817:e=>{e.exports=JSON.parse('{"label":"Business Intelligence","permalink":"/RSA/blog/tags/business-intelligence","allTagsPath":"/RSA/blog/tags","count":1,"unlisted":false}')}}]);
