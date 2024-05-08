@@ -97,7 +97,10 @@
 <ol start="3">
 <li>Click <strong>OK</strong>.</li>
 <li>Run the <em>Test Connector Capabilities</em> to verify the verb.</li>
-</ol>]]></content>
+</ol>
+<blockquote>
+<span class="blog-id-text">CON005</span>
+</blockquote>]]></content>
         <author>
             <name>Pradeep Kadambar</name>
             <uri>https://www.linkedin.com/in/pradeepkg/</uri>
@@ -213,6 +216,9 @@ operations, such as <code>Add Account to Group</code>.</p></div></div>
 <li>Run the <em>Test Connector Capabilities</em> to verify the verb.</li>
 </ol>
 <p>🔴 🟠 ⚫ ⚪ 🟣 🟢 🟡 🔵</p>
+<blockquote>
+<span class="blog-id-text">CON004</span>
+</blockquote>
 <!-- -->
 <section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://github.com/RSA/connectors/afx-ad#footnote-label" class="hash-link" aria-label="Direct link to Footnotes" title="Direct link to Footnotes">​</a></h2>
 <ol>
@@ -300,10 +306,13 @@ admin tasks, so HR, managers, and team members can focus on the business goals.
 <li>Click <strong>OK</strong>.</li>
 <li>Run the <em>Test Connector Capabilities</em> to verify the verb.</li>
 </ol>
-<p>📓 <strong>References</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="references">References<a href="https://github.com/RSA/connectors/afx-eletive#references" class="hash-link" aria-label="Direct link to References" title="Direct link to References">​</a></h2>
 <ul>
 <li><a href="https://help.eletive.com/user-provisioning-scim-2.0" target="_blank" rel="noopener noreferrer">User Provisioning - SCIM 2.0</a></li>
-</ul>]]></content>
+</ul>
+<blockquote>
+<span class="blog-id-text">CON003</span>
+</blockquote>]]></content>
         <author>
             <name>Pradeep Kadambar</name>
             <uri>https://www.linkedin.com/in/pradeepkg/</uri>
@@ -469,7 +478,10 @@ use the <strong>Login</strong> verb.</p></div></div>
 <table class="table-container"><tbody><tr><td colspan="2"><span class="header-2-text">Command Code</span></td></tr><tr><td>Generate SessionToken</td><td>✔️</td></tr><tr><td>Method</td><td><span class="method-delete">DELETE</span></td></tr><tr><td>Path</td><td><code>/data/SecurityUserRoles(UserId='${UserId}',SecurityRoleIdentifier='${SecurityRoleIdentifier}')</code></td></tr><tr><td colspan="2"><span class="header-2-text">Request Headers</span></td></tr><tr><td>Content-Type</td><td><code>application/json</code></td></tr><tr><td>Accept</td><td><code>application/json; charset=utf-8</code></td></tr><tr><td>Authorization</td><td><code>Bearer ${SessionToken}</code></td></tr><tr><td colspan="2"><span class="header-2-text">Request Body</span></td></tr><tr><td colspan="2"><div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-json codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div></td></tr><tr><td colspan="2"><span class="header-2-text">Status Code</span></td></tr><tr><td>Expression Type</td><td>Status Code</td></tr><tr><td colspan="2">Pattern</td></tr><tr><td>^[23]\d<!-- -->2<!-- -->$</td><td>0</td></tr><tr><td>^([45])\d<!-- -->2<!-- -->$</td><td>$1</td></tr><tr><td colspan="2"><span class="header-2-text">Brief Response</span></td></tr><tr><td>Expression Type</td><td>Status Code</td></tr><tr><td colspan="2">Pattern</td></tr><tr><td>SUCCESS</td><td>Shouldn't match</td></tr><tr><td>SUCCESS</td><td>Success (Partial Match ✔️)</td></tr><tr><td>(.*)</td><td>Failed ($1)</td></tr><tr><td colspan="2"><span class="header-2-text">Detailed Response</span></td></tr><tr><td>Expression Type</td><td>Json Path</td></tr><tr><td>Expression</td><td></td></tr><tr><td colspan="2">Pattern</td></tr><tr><td>(.*)</td><td>Details: $1</td></tr></tbody></table>
 <ol start="3">
 <li>Click <strong>OK</strong>. 4. Run the <em>Test Connector Capabilities</em> to verify the verb.</li>
-</ol>]]></content>
+</ol>
+<blockquote>
+<span class="blog-id-text">CON002</span>
+</blockquote>]]></content>
         <author>
             <name>Pradeep Kadambar</name>
             <uri>https://www.linkedin.com/in/pradeepkg/</uri>
@@ -588,10 +600,13 @@ wait for data collection.</p></div></div>
 <li>Click <strong>OK</strong>.</li>
 <li>Run the <em>Test Connector Capabilities</em> to verify the verb.</li>
 </ol>
-<p>📓 <strong>References</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="references">References<a href="https://github.com/RSA/connectors/afx-mangoapps#references" class="hash-link" aria-label="Direct link to References" title="Direct link to References">​</a></h2>
 <ul>
 <li><a href="https://www.mangoapps.com/" target="_blank" rel="noopener noreferrer">MangoApps Homepage</a></li>
-</ul>]]></content>
+</ul>
+<blockquote>
+<span class="blog-id-text">CON001</span>
+</blockquote>]]></content>
         <author>
             <name>Pradeep Kadambar</name>
             <uri>https://www.linkedin.com/in/pradeepkg/</uri>
