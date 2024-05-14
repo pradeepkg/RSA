@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[87313],{24278:e=>{e.exports=JSON.parse('{"title":"Reporting","slug":"/category/reporting","permalink":"/RSA/docs/category/reporting","navigation":{"previous":{"title":"Process Rule","permalink":"/RSA/docs/rules/processRule"},"next":{"title":"Run Report","permalink":"/RSA/docs/reporting/runReport"}}}')}}]);

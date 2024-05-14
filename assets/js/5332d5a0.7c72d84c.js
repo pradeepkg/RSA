@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[54170],{18257:a=>{a.exports=JSON.parse('{"label":"BambooHR","permalink":"/RSA/blog/tags/bamboo-hr","allTagsPath":"/RSA/blog/tags","count":1,"unlisted":false}')}}]);

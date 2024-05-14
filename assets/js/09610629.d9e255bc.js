@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[3880],{63740:e=>{e.exports=JSON.parse('{"label":"EMR","permalink":"/RSA/blog/tags/emr","allTagsPath":"/RSA/blog/tags","count":1,"unlisted":false}')}}]);

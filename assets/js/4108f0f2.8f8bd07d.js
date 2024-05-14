@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[86056],{97765:e=>{e.exports=JSON.parse('{"label":"Education","permalink":"/RSA/connectors/tags/education","allTagsPath":"/RSA/connectors/tags","count":1,"unlisted":false}')}}]);

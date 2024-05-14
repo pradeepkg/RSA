@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[67096],{19987:e=>{e.exports=JSON.parse('{"label":"Deltek","permalink":"/RSA/blog/tags/deltek","allTagsPath":"/RSA/blog/tags","count":1,"unlisted":false}')}}]);

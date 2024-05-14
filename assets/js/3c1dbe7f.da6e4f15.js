@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocku=self.webpackChunkdocku||[]).push([[98194],{51619:a=>{a.exports=JSON.parse('{"label":"Oracle","permalink":"/RSA/blog/tags/oracle","allTagsPath":"/RSA/blog/tags","count":2,"unlisted":false}')}}]);
