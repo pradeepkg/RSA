@@ -4,10 +4,44 @@
         <title>Developers Blog</title>
         <link>https://github.com/RSA/basics</link>
         <description>Developers Blog</description>
-        <lastBuildDate>Thu, 01 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Adding Custom JDBC Driver]]></title>
+            <link>https://github.com/RSA/basics/custom-jdbc</link>
+            <guid>https://github.com/RSA/basics/custom-jdbc</guid>
+            <pubDate>Thu, 23 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[This blog delves into the process of adding support for additional database drivers in the G&L version 8.0 and above.]]></description>
+            <content:encoded><![CDATA[<p>This blog delves into the process of adding support for additional database drivers in the G&amp;L version 8.0 and above.</p>
+<p>Starting with G&amp;L 8.0, all the individual JDBC connectors have been consolidated into a single generic database connector. This generic connector natively supports the following databases:</p>
+<ul>
+<li>DB2</li>
+<li>Oracle</li>
+<li>Sybase</li>
+<li>SQLServer</li>
+<li>jTDS</li>
+<li>MySQL</li>
+<li>ODBC compliant databases</li>
+</ul>
+<p><strong>Steps</strong></p>
+<ol>
+<li>Login to G&amp;L console as system administrator.</li>
+<li>If you are creating a new connector proceed to step 4.</li>
+<li>For existing connector, click <strong>Test Connector Settings</strong> which should throw a driver class load error.<br><br><img decoding="async" loading="lazy" alt="img" src="https://github.com/RSA/assets/images/1-3c9ad5bddceaf9d343a802f743c22b4e.png" width="994" height="243" class="img_ev3q"></li>
+<li>Go to <strong>AFX &gt; Connector Templates</strong> and click on <em><strong>Generic Database</strong></em>.<br><br><img decoding="async" loading="lazy" alt="img" src="https://github.com/RSA/assets/images/2-fbba597ec44935121fbd229e4e27e04a.png" width="773" height="394" class="img_ev3q"></li>
+<li>Under <strong>File Content</strong> tab, click on <strong>Upload Jar</strong>.<br><br><img decoding="async" loading="lazy" alt="img" src="https://github.com/RSA/assets/images/3-6715253b841bf4588f1f5e6d5bf8d632.png" width="453" height="455" class="img_ev3q"></li>
+<li>Select the JDBC driver jar file and click <strong>OK</strong>.</li>
+<li>Go to the connector and edit the driver class and connector string as needed.<br><img decoding="async" loading="lazy" alt="img" src="https://github.com/RSA/assets/images/4-720c35c24fb8df0fa22567548254e611.png" width="661" height="240" class="img_ev3q"></li>
+<li>Click <em><strong>Test Connector Settings</strong></em>.</li>
+</ol>]]></content:encoded>
+            <category>Provisioning</category>
+            <category>AFX</category>
+            <category>JDBC</category>
+            <category>Database</category>
+            <category>Driver</category>
+        </item>
         <item>
             <title><![CDATA[Manipulating Accounts]]></title>
             <link>https://github.com/RSA/basics/data-processors-adc</link>
@@ -85,9 +119,8 @@
             <link>https://github.com/RSA/basics/data-processors-idc</link>
             <guid>https://github.com/RSA/basics/data-processors-idc</guid>
             <pubDate>Wed, 31 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Overview:]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="overview">Overview:<a href="https://github.com/RSA/basics/data-processors-idc#overview" class="hash-link" aria-label="Direct link to Overview:" title="Direct link to Overview:">​</a></h2>
-<p>In this blog post, I will guide you through the effective utilization of pre and post processors during identity collections to address common use cases. If you are not familiar with data processors, I recommend reading the <strong><a href="https://github.com/RSA/basics/data-processors-basics">Data Processors Basics</a></strong> before proceeding, as it will provide a foundational understanding for the concepts discussed in this blog.</p>
+            <description><![CDATA[In this blog post, I will guide you through the effective utilization of pre and post processors during identity collections to address common use cases. If you are not familiar with data processors, I recommend reading the Data Processors Basics before proceeding, as it will provide a foundational understanding for the concepts discussed in this blog.]]></description>
+            <content:encoded><![CDATA[<p>In this blog post, I will guide you through the effective utilization of pre and post processors during identity collections to address common use cases. If you are not familiar with data processors, I recommend reading the <strong><a href="https://github.com/RSA/basics/data-processors-basics">Data Processors Basics</a></strong> before proceeding, as it will provide a foundational understanding for the concepts discussed in this blog.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="enabling-data-processors">Enabling Data Processors<a href="https://github.com/RSA/basics/data-processors-idc#enabling-data-processors" class="hash-link" aria-label="Direct link to Enabling Data Processors" title="Direct link to Enabling Data Processors">​</a></h3>
 <p>Data processing is an advanced feature that requires explicit activation by the System Administrator. To enable this feature, follow the steps outlined below:</p>
 <ol>
@@ -125,16 +158,15 @@
 <li>Click <strong>Save</strong></li>
 </ol>]]></content:encoded>
             <category>Data Processors</category>
+            <category>Identities</category>
         </item>
         <item>
             <title><![CDATA[Data Processor Basics]]></title>
             <link>https://github.com/RSA/basics/data-processors-basics</link>
             <guid>https://github.com/RSA/basics/data-processors-basics</guid>
             <pubDate>Tue, 30 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is the first line.  This is the second line.]]></description>
-            <content:encoded><![CDATA[<p>This is the first line. <br> This is the second line.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="https://github.com/RSA/basics/data-processors-basics#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
-<p>Data processors have been integral in <strong>RSA Governance and Lifecycle (G&amp;L)</strong> systems, playing a crucial role in manipulating data throughout different stages of collections, unification or Separation of Duties (SoD) processing. Traditionally, the integration of custom logic into these data processors required direct system access to the AVDB database and the use of tools such as SQL Developer. However, with the evolution of G&amp;L products, there has been a paradigm shift in the approach to implementing custom logic within data processors.</p>
+            <description><![CDATA[Data processors have been integral in RSA Governance and Lifecycle (G&L) systems, playing a crucial role in manipulating data throughout different stages of collections, unification or Separation of Duties (SoD) processing. Traditionally, the integration of custom logic into these data processors required direct system access to the AVDB database and the use of tools such as SQL Developer. However, with the evolution of G&L products, there has been a paradigm shift in the approach to implementing custom logic within data processors.]]></description>
+            <content:encoded><![CDATA[<p>Data processors have been integral in <strong>RSA Governance and Lifecycle (G&amp;L)</strong> systems, playing a crucial role in manipulating data throughout different stages of collections, unification or Separation of Duties (SoD) processing. Traditionally, the integration of custom logic into these data processors required direct system access to the AVDB database and the use of tools such as SQL Developer. However, with the evolution of G&amp;L products, there has been a paradigm shift in the approach to implementing custom logic within data processors.</p>
 <p>In this blog post, we'll explore the historical context of data processors and examine contemporary solutions that not only streamline the customization process but also eliminate the necessity for direct database access. This evolution promises a more accessible and agile approach for developers working with G&amp;L systems.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="pre-752-common-extension-points">Pre 7.5.2: Common Extension Points<a href="https://github.com/RSA/basics/data-processors-basics#pre-752-common-extension-points" class="hash-link" aria-label="Direct link to Pre 7.5.2: Common Extension Points" title="Direct link to Pre 7.5.2: Common Extension Points">​</a></h3>
 <p>In versions preceding 7.5.2, customization within Governance and Lifecycle (G&amp;L) systems was facilitated through various extension points. These extension points served as key areas where developers could inject custom logic to tailor the system according to specific organizational needs. Below is a table outlining some of the common extension points utilized in G&amp;L systems before version 7.5.2:</p>
@@ -154,9 +186,8 @@ with caution and discretion.</p></div></div>]]></content:encoded>
             <link>https://github.com/RSA/basics/rest-collector-authentication</link>
             <guid>https://github.com/RSA/basics/rest-collector-authentication</guid>
             <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Overview]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="overview">Overview<a href="https://github.com/RSA/basics/rest-collector-authentication#overview" class="hash-link" aria-label="Direct link to Overview" title="Direct link to Overview">​</a></h3>
-<p>In recent blog posts, we've explored numerous integrations between RSA G&amp;L and various SaaS applications, primarily relying on the Generic REST collectors. Despite their flexibility, navigating through the intricate components of these collectors can be overwhelming. This article aims to simplify the process by focusing on the authentication aspect, providing an overview of the supported authentication methods and offering common examples to clarify the integration process.</p>
+            <description><![CDATA[In recent blog posts, we've explored numerous integrations between RSA G&L and various SaaS applications, primarily relying on the Generic REST collectors. Despite their flexibility, navigating through the intricate components of these collectors can be overwhelming. This article aims to simplify the process by focusing on the authentication aspect, providing an overview of the supported authentication methods and offering common examples to clarify the integration process.]]></description>
+            <content:encoded><![CDATA[<p>In recent blog posts, we've explored numerous integrations between RSA G&amp;L and various SaaS applications, primarily relying on the Generic REST collectors. Despite their flexibility, navigating through the intricate components of these collectors can be overwhelming. This article aims to simplify the process by focusing on the authentication aspect, providing an overview of the supported authentication methods and offering common examples to clarify the integration process.</p>
 <p>As of v8.0, RSA G&amp;L generic REST collector supports <code>Basic</code>, <code>Token</code> and <code>OAuth2</code> authentication methods. Rest of the article will cover the details of each configuration with examples.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="basic">Basic<a href="https://github.com/RSA/basics/rest-collector-authentication#basic" class="hash-link" aria-label="Direct link to Basic" title="Direct link to Basic">​</a></h3>
 <p>This authentication type is an implementation of the HTTP Basic Authentication Scheme. This authentication type requires that the user name and password values are provided in the collector configuration and during the API invocation transmits the Base64 encoded pair of user name and password.</p>
