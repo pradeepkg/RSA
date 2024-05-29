@@ -90,7 +90,10 @@
 <ul>
 <li><a href="https://www.notion.so/help/provision-users-and-groups-with-scim#users" target="_blank" rel="noopener noreferrer">SCIM Users API</a></li>
 <li><a href="https://www.notion.so/help/provision-users-and-groups-with-scim#groups" target="_blank" rel="noopener noreferrer">SCIM Groups API</a></li>
-</ul>]]></content>
+</ul>
+<blockquote>
+<span class="blog-id-text">CON007</span>
+</blockquote>]]></content>
         <author>
             <name>Pradeep Kadambar</name>
             <uri>https://www.linkedin.com/in/pradeepkg/</uri>
