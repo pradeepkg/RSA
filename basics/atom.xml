@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.com/RSA/basics</id>
+    <id>https://github.com/RSA/basics/</id>
     <title>Developers Blog</title>
     <updated>2024-05-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.com/RSA/basics"/>
+    <link rel="alternate" href="https://github.com/RSA/basics/"/>
     <subtitle>Developers Blog</subtitle>
     <icon>https://github.com/RSA/img/iconmonstr-arrow-31.svg</icon>
     <entry>
         <title type="html"><![CDATA[Adding Custom JDBC Driver]]></title>
-        <id>https://github.com/RSA/basics/custom-jdbc</id>
-        <link href="https://github.com/RSA/basics/custom-jdbc"/>
+        <id>https://github.com/RSA/basics/custom-jdbc/</id>
+        <link href="https://github.com/RSA/basics/custom-jdbc/"/>
         <updated>2024-05-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This blog delves into the process of adding support for additional database drivers in the G&L version 8.0 and above.]]></summary>
         <content type="html"><![CDATA[<p>This blog delves into the process of adding support for additional database drivers in the G&amp;L version 8.0 and above.</p>
@@ -47,12 +47,12 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Manipulating Accounts]]></title>
-        <id>https://github.com/RSA/basics/data-processors-adc</id>
-        <link href="https://github.com/RSA/basics/data-processors-adc"/>
+        <id>https://github.com/RSA/basics/data-processors-adc/</id>
+        <link href="https://github.com/RSA/basics/data-processors-adc/"/>
         <updated>2024-02-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[In this blog post, I will guide you through the effective utilization of data processors during account collections to address common use cases. If you are not familiar with data processors, I recommend reading the Data Processors Basics before proceeding, as it will provide a foundational understanding of the concepts discussed in this blog.]]></summary>
-        <content type="html"><![CDATA[<p>In this blog post, I will guide you through the effective utilization of data processors during account collections to address common use cases. If you are not familiar with data processors, I recommend reading the <strong><a href="https://github.com/RSA/basics/data-processors-basics">Data Processors Basics</a></strong> before proceeding, as it will provide a foundational understanding of the concepts discussed in this blog.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="manipulating-account-resolution-attribute">Manipulating Account Resolution Attribute<a class="hash-link" aria-label="Direct link to Manipulating Account Resolution Attribute" title="Direct link to Manipulating Account Resolution Attribute" href="https://github.com/RSA/basics/data-processors-adc#manipulating-account-resolution-attribute">​</a></h3>
+        <content type="html"><![CDATA[<p>In this blog post, I will guide you through the effective utilization of data processors during account collections to address common use cases. If you are not familiar with data processors, I recommend reading the <strong><a href="https://github.com/RSA/basics/data-processors-adc/data-processors-basics/">Data Processors Basics</a></strong> before proceeding, as it will provide a foundational understanding of the concepts discussed in this blog.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="manipulating-account-resolution-attribute">Manipulating Account Resolution Attribute<a href="https://github.com/RSA/basics/data-processors-adc/#manipulating-account-resolution-attribute" class="hash-link" aria-label="Direct link to Manipulating Account Resolution Attribute" title="Direct link to Manipulating Account Resolution Attribute">​</a></h3>
 <p>In the scenario where admin accounts collected from Active Directory ADC are identified as orphans, with <em>sAMAccountName</em> formats differing from regular user accounts, we can resolve this by employing the <em>Pre_ADC_Handler</em>. This handler allows us to manipulate the raw data collected from the application and convert it to the desired format.</p>
 <p>To implement this solution, follow the steps below:</p>
 <ol>
@@ -70,7 +70,7 @@
 <li>Click <strong>Validate</strong> to check for syntactical errors.</li>
 <li>Click <strong>Finish</strong></li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="converting-account-status-format">Converting Account Status Format<a class="hash-link" aria-label="Direct link to Converting Account Status Format" title="Direct link to Converting Account Status Format" href="https://github.com/RSA/basics/data-processors-adc#converting-account-status-format">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="converting-account-status-format">Converting Account Status Format<a href="https://github.com/RSA/basics/data-processors-adc/#converting-account-status-format" class="hash-link" aria-label="Direct link to Converting Account Status Format" title="Direct link to Converting Account Status Format">​</a></h3>
 <p>For an application returning user account active status as true or false, but requiring conversion to an Account Disabled flag in the format of 1 and 0, we can achieve this by utilizing the Post_Account_Data_Load_Handler. This handler allows us to manipulate the data collected from the application and convert it to the desired format.</p>
 <p>Follow these steps to implement the solution:</p>
 <ol>
@@ -88,7 +88,7 @@
 <li>Click <strong>Validate</strong> to check for syntactical errors.</li>
 <li>Click <strong>Finish</strong></li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updating-is_disabled-flag-for-an-account-using-global-variables">Updating IS_DISABLED Flag for an Account using Global Variables:<a class="hash-link" aria-label="Direct link to Updating IS_DISABLED Flag for an Account using Global Variables:" title="Direct link to Updating IS_DISABLED Flag for an Account using Global Variables:" href="https://github.com/RSA/basics/data-processors-adc#updating-is_disabled-flag-for-an-account-using-global-variables">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updating-is_disabled-flag-for-an-account-using-global-variables">Updating IS_DISABLED Flag for an Account using Global Variables:<a href="https://github.com/RSA/basics/data-processors-adc/#updating-is_disabled-flag-for-an-account-using-global-variables" class="hash-link" aria-label="Direct link to Updating IS_DISABLED Flag for an Account using Global Variables:" title="Direct link to Updating IS_DISABLED Flag for an Account using Global Variables:">​</a></h3>
 <p>To convert data obtained from a REST endpoint to the required 1 or 0 format for the IS_DISABLED field of the accounts and set the value of the IS_DISABLED field, follow these steps:</p>
 <ol>
 <li>Log in to the console as a System Administrator.</li>
@@ -123,12 +123,12 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Manipulating Identities]]></title>
-        <id>https://github.com/RSA/basics/data-processors-idc</id>
-        <link href="https://github.com/RSA/basics/data-processors-idc"/>
+        <id>https://github.com/RSA/basics/data-processors-idc/</id>
+        <link href="https://github.com/RSA/basics/data-processors-idc/"/>
         <updated>2024-01-31T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[In this blog post, I will guide you through the effective utilization of pre and post processors during identity collections to address common use cases. If you are not familiar with data processors, I recommend reading the Data Processors Basics before proceeding, as it will provide a foundational understanding for the concepts discussed in this blog.]]></summary>
-        <content type="html"><![CDATA[<p>In this blog post, I will guide you through the effective utilization of pre and post processors during identity collections to address common use cases. If you are not familiar with data processors, I recommend reading the <strong><a href="https://github.com/RSA/basics/data-processors-basics">Data Processors Basics</a></strong> before proceeding, as it will provide a foundational understanding for the concepts discussed in this blog.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="enabling-data-processors">Enabling Data Processors<a class="hash-link" aria-label="Direct link to Enabling Data Processors" title="Direct link to Enabling Data Processors" href="https://github.com/RSA/basics/data-processors-idc#enabling-data-processors">​</a></h3>
+        <content type="html"><![CDATA[<p>In this blog post, I will guide you through the effective utilization of pre and post processors during identity collections to address common use cases. If you are not familiar with data processors, I recommend reading the <strong><a href="https://github.com/RSA/basics/data-processors-idc/data-processors-basics/">Data Processors Basics</a></strong> before proceeding, as it will provide a foundational understanding for the concepts discussed in this blog.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="enabling-data-processors">Enabling Data Processors<a href="https://github.com/RSA/basics/data-processors-idc/#enabling-data-processors" class="hash-link" aria-label="Direct link to Enabling Data Processors" title="Direct link to Enabling Data Processors">​</a></h3>
 <p>Data processing is an advanced feature that requires explicit activation by the System Administrator. To enable this feature, follow the steps outlined below:</p>
 <ol>
 <li>Login to console as System Administrator</li>
@@ -138,7 +138,7 @@
 <li>Click Save</li>
 <li>Click OK.</li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="set-termination-status-based-on-active-directory-accountexpires-value">Set termination status based on Active Directory accountExpires value<a class="hash-link" aria-label="Direct link to Set termination status based on Active Directory accountExpires value" title="Direct link to Set termination status based on Active Directory accountExpires value" href="https://github.com/RSA/basics/data-processors-idc#set-termination-status-based-on-active-directory-accountexpires-value">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="set-termination-status-based-on-active-directory-accountexpires-value">Set termination status based on Active Directory accountExpires value<a href="https://github.com/RSA/basics/data-processors-idc/#set-termination-status-based-on-active-directory-accountexpires-value" class="hash-link" aria-label="Direct link to Set termination status based on Active Directory accountExpires value" title="Direct link to Set termination status based on Active Directory accountExpires value">​</a></h3>
 <p>In this specific use case, our goal is to gather user identities from Active Directory, including the <em>accountExpires</em> attribute, which indicates the expiration date of an account. Upon collecting this identity information in G&amp;L, our objective is to label the identity as terminated if the <em>accountExpires</em> value is greater than or equal to the current date.</p>
 <p>To achieve this, we can leverage the <em>Pre_ID_Unification_Handler</em>. This handler allows us to manipulate the raw data collected from Active Directory before the unification process takes place. By incorporating logic within this handler, we can effectively set the termination status based on the comparison between the <em>accountExpires</em> value and the current date. This ensures that the identity management system appropriately identifies and marks accounts as terminated in accordance with the specified criteria.</p>
 <ol>
@@ -151,7 +151,7 @@
 <li>Click <strong>Validate</strong> to check for syntactical errors.</li>
 <li>Click <strong>Save</strong></li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="generate-user-name">Generate User Name<a class="hash-link" aria-label="Direct link to Generate User Name" title="Direct link to Generate User Name" href="https://github.com/RSA/basics/data-processors-idc#generate-user-name">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="generate-user-name">Generate User Name<a href="https://github.com/RSA/basics/data-processors-idc/#generate-user-name" class="hash-link" aria-label="Direct link to Generate User Name" title="Direct link to Generate User Name">​</a></h3>
 <p>In scenarios where G&amp;L is tasked with onboarding user accounts across multiple systems, the need for generating a unique user ID becomes crucial. While straightforward cases can be addressed through Naming Policies, more intricate situations may demand customized solutions.</p>
 <p>To tackle these complexities, we can employ the <em>Post_ID_Unification_Handler</em>. This handler allows us to manipulate the unified data after the unification process has taken place. By incorporating custom logic within this handler, we can address the nuanced requirements of generating unique user IDs, ensuring that the system adapts to diverse scenarios during the onboarding process. This approach provides a flexible and tailored solution for managing user account onboarding in a variety of system environments.</p>
 <ol>
@@ -173,16 +173,16 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Data Processor Basics]]></title>
-        <id>https://github.com/RSA/basics/data-processors-basics</id>
-        <link href="https://github.com/RSA/basics/data-processors-basics"/>
+        <id>https://github.com/RSA/basics/data-processors-basics/</id>
+        <link href="https://github.com/RSA/basics/data-processors-basics/"/>
         <updated>2024-01-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Data processors have been integral in RSA Governance and Lifecycle (G&L) systems, playing a crucial role in manipulating data throughout different stages of collections, unification or Separation of Duties (SoD) processing. Traditionally, the integration of custom logic into these data processors required direct system access to the AVDB database and the use of tools such as SQL Developer. However, with the evolution of G&L products, there has been a paradigm shift in the approach to implementing custom logic within data processors.]]></summary>
         <content type="html"><![CDATA[<p>Data processors have been integral in <strong>RSA Governance and Lifecycle (G&amp;L)</strong> systems, playing a crucial role in manipulating data throughout different stages of collections, unification or Separation of Duties (SoD) processing. Traditionally, the integration of custom logic into these data processors required direct system access to the AVDB database and the use of tools such as SQL Developer. However, with the evolution of G&amp;L products, there has been a paradigm shift in the approach to implementing custom logic within data processors.</p>
 <p>In this blog post, we'll explore the historical context of data processors and examine contemporary solutions that not only streamline the customization process but also eliminate the necessity for direct database access. This evolution promises a more accessible and agile approach for developers working with G&amp;L systems.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="pre-752-common-extension-points">Pre 7.5.2: Common Extension Points<a class="hash-link" aria-label="Direct link to Pre 7.5.2: Common Extension Points" title="Direct link to Pre 7.5.2: Common Extension Points" href="https://github.com/RSA/basics/data-processors-basics#pre-752-common-extension-points">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="pre-752-common-extension-points">Pre 7.5.2: Common Extension Points<a href="https://github.com/RSA/basics/data-processors-basics/#pre-752-common-extension-points" class="hash-link" aria-label="Direct link to Pre 7.5.2: Common Extension Points" title="Direct link to Pre 7.5.2: Common Extension Points">​</a></h3>
 <p>In versions preceding 7.5.2, customization within Governance and Lifecycle (G&amp;L) systems was facilitated through various extension points. These extension points served as key areas where developers could inject custom logic to tailor the system according to specific organizational needs. Below is a table outlining some of the common extension points utilized in G&amp;L systems before version 7.5.2:</p>
 <table><thead><tr><th>Processor Name</th><th>Description</th></tr></thead><tbody><tr><td><strong>Pre_ID_Unification_Handler</strong></td><td>Any action needed post identity data collection but before unification. Mostly used to manipulate the T_DC_SOURCEDATA_USER table</td></tr><tr><td><strong>Post_ID_Unification_Handler</strong></td><td>Any action that needs to be performed after the identities have been collected, unified and persisted in the system</td></tr><tr><td><strong>Pre_Supervisor_Resolution</strong></td><td>Any action that needs to be performed after the identities have been collected, but before supervisor references are resolved</td></tr><tr><td><strong>Pre_ADC_Handler</strong></td><td>Any action to be performed post account data collection but before processing.</td></tr><tr><td><strong>Post_Account_Data_Load_Handler</strong></td><td>Action to be taken once account data has been collected and persisted in the system</td></tr><tr><td><strong>Post_MAEDC_Load_Handler</strong></td><td>Any action needed post multi-app EDC run</td></tr><tr><td><strong>Post_Process_SoD_Violations</strong></td><td>Actions to be taken post SoD rules have been evaluated and violations generated</td></tr></tbody></table>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="gl-cloud-and-752-on-premise-easy-customization">G&amp;L Cloud and 7.5.2 On-Premise: Easy Customization<a class="hash-link" aria-label="Direct link to G&amp;L Cloud and 7.5.2 On-Premise: Easy Customization" title="Direct link to G&amp;L Cloud and 7.5.2 On-Premise: Easy Customization" href="https://github.com/RSA/basics/data-processors-basics#gl-cloud-and-752-on-premise-easy-customization">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="gl-cloud-and-752-on-premise-easy-customization">G&amp;L Cloud and 7.5.2 On-Premise: Easy Customization<a href="https://github.com/RSA/basics/data-processors-basics/#gl-cloud-and-752-on-premise-easy-customization" class="hash-link" aria-label="Direct link to G&amp;L Cloud and 7.5.2 On-Premise: Easy Customization" title="Direct link to G&amp;L Cloud and 7.5.2 On-Premise: Easy Customization">​</a></h3>
 <p>In the newest G&amp;L Cloud and on-premise versions 7.5.2 and above, RSA has made customizing your system a breeze. This significant enhancement simplifies the process of adding and maintaining custom extensions, making it more intuitive and user-friendly for developers and administrators alike.</p>
 <p>To enable usage of processors, the following system settings must be set.</p>
 <div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">custom.enableCustomPostProcessingScript = true</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
@@ -198,13 +198,13 @@ with caution and discretion.</p></div></div>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[REST Collector Authentication]]></title>
-        <id>https://github.com/RSA/basics/rest-collector-authentication</id>
-        <link href="https://github.com/RSA/basics/rest-collector-authentication"/>
+        <id>https://github.com/RSA/basics/rest-collector-authentication/</id>
+        <link href="https://github.com/RSA/basics/rest-collector-authentication/"/>
         <updated>2023-10-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[In recent blog posts, we've explored numerous integrations between RSA G&L and various SaaS applications, primarily relying on the Generic REST collectors. Despite their flexibility, navigating through the intricate components of these collectors can be overwhelming. This article aims to simplify the process by focusing on the authentication aspect, providing an overview of the supported authentication methods and offering common examples to clarify the integration process.]]></summary>
         <content type="html"><![CDATA[<p>In recent blog posts, we've explored numerous integrations between RSA G&amp;L and various SaaS applications, primarily relying on the Generic REST collectors. Despite their flexibility, navigating through the intricate components of these collectors can be overwhelming. This article aims to simplify the process by focusing on the authentication aspect, providing an overview of the supported authentication methods and offering common examples to clarify the integration process.</p>
 <p>As of v8.0, RSA G&amp;L generic REST collector supports <code>Basic</code>, <code>Token</code> and <code>OAuth2</code> authentication methods. Rest of the article will cover the details of each configuration with examples.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="basic">Basic<a class="hash-link" aria-label="Direct link to Basic" title="Direct link to Basic" href="https://github.com/RSA/basics/rest-collector-authentication#basic">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="basic">Basic<a href="https://github.com/RSA/basics/rest-collector-authentication/#basic" class="hash-link" aria-label="Direct link to Basic" title="Direct link to Basic">​</a></h3>
 <p>This authentication type is an implementation of the HTTP Basic Authentication Scheme. This authentication type requires that the user name and password values are provided in the collector configuration and during the API invocation transmits the Base64 encoded pair of user name and password.</p>
 <div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>The G&amp;L collector framework will ensure the <code>Authorization</code> headers are set on the request and no additional configuration  are required in the API page.</p></div></div>
 <p><img decoding="async" loading="lazy" alt="img" src="https://github.com/RSA/assets/images/basic-1-ec6148dd3555b0651e5fe3ff253d3484.png" width="372" height="324" class="img_ev3q"></p>
@@ -212,15 +212,15 @@ with caution and discretion.</p></div></div>]]></content>
 <p>The API configuration page will look something like this without needing any explicit <code>Authorization</code> headers.<br><img decoding="async" loading="lazy" alt="img" src="https://github.com/RSA/assets/images/basic-2-7d392b321545184e6ad5b1dc3eab61b9.png" width="531" height="265" class="img_ev3q"></p>
 <p><strong>Examples</strong></p>
 <ul>
-<li><a href="https://github.com/RSA/blog/freshservice">Freshservice</a></li>
-<li><a href="https://github.com/RSA/blog/zendesk">Zendesk</a></li>
+<li><a href="https://github.com/RSA/basics/blog/freshservice/">Freshservice</a></li>
+<li><a href="https://github.com/RSA/basics/blog/zendesk/">Zendesk</a></li>
 </ul>
 <p>📓 <strong>References</strong></p>
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization#basic_authentication" target="_blank" rel="noopener noreferrer">Mozilla : Basic Authentication</a></li>
 <li><a href="https://datatracker.ietf.org/doc/html/rfc7617" target="_blank" rel="noopener noreferrer">RFC - The 'Basic' HTTP Authentication Scheme</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="token">Token<a class="hash-link" aria-label="Direct link to Token" title="Direct link to Token" href="https://github.com/RSA/basics/rest-collector-authentication#token">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="token">Token<a href="https://github.com/RSA/basics/rest-collector-authentication/#token" class="hash-link" aria-label="Direct link to Token" title="Direct link to Token">​</a></h3>
 <p>This authentication type is an implementation of the HTTP Bearer Authentication Scheme. This authentication type requires that a valid token value is provided in the collector configuration. The generic REST collector support both static as well as dynamic token types.</p>
 <p>Once the connection details for the token has been configured, the subsequently all API calls must include the <code>Authorization</code> HTTP header with value <code>Bearer ${AuthenticationToken}</code>.</p>
 <p>📓 <strong>References</strong></p>
@@ -228,30 +228,30 @@ with caution and discretion.</p></div></div>]]></content>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication" target="_blank" rel="noopener noreferrer">Mozilla : HTTP authentication</a></li>
 <li><a href="https://datatracker.ietf.org/doc/html/rfc6750" target="_blank" rel="noopener noreferrer">RFC - The OAuth 2.0 Authorization Framework: Bearer Token Usage</a></li>
 </ul>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="static-token">Static Token<a class="hash-link" aria-label="Direct link to Static Token" title="Direct link to Static Token" href="https://github.com/RSA/basics/rest-collector-authentication#static-token">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="static-token">Static Token<a href="https://github.com/RSA/basics/rest-collector-authentication/#static-token" class="hash-link" aria-label="Direct link to Static Token" title="Direct link to Static Token">​</a></h4>
 <p><img decoding="async" loading="lazy" alt="img" src="https://github.com/RSA/assets/images/token-static-1-ca4fc50bc9d62eb3e93ed87fdac5a0fd.png" width="370" height="355" class="img_ev3q"></p>
 <table><tbody><tr><td><span class="header-2-text">1</span></td><td><span class="header-2-text">User Authentication Type</span></td><td>Token</td></tr><tr><td><span class="header-2-text">2</span></td><td><span class="header-2-text">Get Token from URL</span></td><td>Unchecked</td></tr><tr><td><span class="header-2-text">3</span></td><td><span class="header-2-text">Authentication Token</span></td><td>Static token value</td></tr></tbody></table>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="examples">Examples<a class="hash-link" aria-label="Direct link to Examples" title="Direct link to Examples" href="https://github.com/RSA/basics/rest-collector-authentication#examples">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="examples">Examples<a href="https://github.com/RSA/basics/rest-collector-authentication/#examples" class="hash-link" aria-label="Direct link to Examples" title="Direct link to Examples">​</a></h4>
 <ul>
-<li><a href="https://github.com/RSA/blog/sentry">Sentry</a></li>
+<li><a href="https://github.com/RSA/basics/blog/sentry/">Sentry</a></li>
 </ul>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="dynamic-token">Dynamic Token<a class="hash-link" aria-label="Direct link to Dynamic Token" title="Direct link to Dynamic Token" href="https://github.com/RSA/basics/rest-collector-authentication#dynamic-token">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="dynamic-token">Dynamic Token<a href="https://github.com/RSA/basics/rest-collector-authentication/#dynamic-token" class="hash-link" aria-label="Direct link to Dynamic Token" title="Direct link to Dynamic Token">​</a></h4>
 <p>The configuration for getting a dynamic token can vary from endpoint to endpoint. Generally the token URL accepts requests over <strong>POST</strong> with additional authentication requirements passed through the POST body. The collector does support dynamic token calls over <strong>GET</strong> if needed.</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="examples-1">Examples<a class="hash-link" aria-label="Direct link to Examples" title="Direct link to Examples" href="https://github.com/RSA/basics/rest-collector-authentication#examples-1">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="examples-1">Examples<a href="https://github.com/RSA/basics/rest-collector-authentication/#examples-1" class="hash-link" aria-label="Direct link to Examples" title="Direct link to Examples">​</a></h4>
 <ul>
-<li><a href="https://github.com/RSA/blog/pingone">PingOne</a></li>
-<li><a href="https://github.com/RSA/blog/dynatrace">Dynatrace</a></li>
+<li><a href="https://github.com/RSA/basics/blog/pingone/">PingOne</a></li>
+<li><a href="https://github.com/RSA/basics/blog/dynatrace/">Dynatrace</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="oauth2">OAuth2<a class="hash-link" aria-label="Direct link to OAuth2" title="Direct link to OAuth2" href="https://github.com/RSA/basics/rest-collector-authentication#oauth2">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="oauth2">OAuth2<a href="https://github.com/RSA/basics/rest-collector-authentication/#oauth2" class="hash-link" aria-label="Direct link to OAuth2" title="Direct link to OAuth2">​</a></h3>
 <p>This authentication type supports the OAuth 2 authorization flow.</p>
 <p><img decoding="async" loading="lazy" alt="img" src="https://github.com/RSA/assets/images/oauth-1-ef10e6c8e7836dabbcaa371dd8e94875.png" width="636" height="420" class="img_ev3q"></p>
 <table><tbody><tr><td><span class="header-2-text">1</span></td><td><span class="header-2-text">User Authentication Type</span></td><td>OAuth2</td></tr><tr><td><span class="header-2-text">2</span></td><td><span class="header-2-text">Client ID</span></td><td>The <code>client_id</code> for the OAuth application created on the target for the integration</td></tr><tr><td><span class="header-2-text">3</span></td><td><span class="header-2-text">Client Secret</span></td><td>The <code>client_secret</code> corresponding to the <code>client_id</code></td></tr><tr><td><span class="header-2-text">4</span></td><td><span class="header-2-text">Authentication URL</span></td><td>Authentication URL to retrieve an authorization <code>code</code> and an optional <code>refresh_token</code> from target application</td></tr><tr><td><span class="header-2-text">5</span></td><td><span class="header-2-text">Access Token URL</span></td><td>Access token URL to acquire an access token using the authorization <code>code</code> from the target application</td></tr><tr><td><span class="header-2-text">6</span></td><td><span class="header-2-text">Scope</span></td><td><code>scope</code> for the <code>access_token</code> being requested</td></tr><tr><td><span class="header-2-text">7</span></td><td><span class="header-2-text">Access Token Expiry</span></td><td><code>access_token</code> expiration period in milliseconds. This value will be updated if the <code>expires_in</code> parameter is available in token responses. If <code>refresh_token</code> was provided in the access token response, G&amp;L will make a access token request when the current token expires.</td></tr><tr><td><span class="header-2-text">8</span></td><td><span class="header-2-text">Token Validity</span></td><td>Displays when the current <code>access_token</code> will expire</td></tr></tbody></table>
 <p>Once the above configurations are set, click on <em><strong>Get OAuth 2.0 Access Token</strong></em> to send the authorization request. Depending on the target application, you may have to go through the authentication process and once completed will return the <code>code</code>, <code>refresh_token</code>, <code>access_token</code> to  <a href="https://instance.securid.com/aveksa/oauth/callback" target="_blank" rel="noopener noreferrer">https://instance.securid.com/aveksa/oauth/callback</a></p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="examples-2">Examples<a class="hash-link" aria-label="Direct link to Examples" title="Direct link to Examples" href="https://github.com/RSA/basics/rest-collector-authentication#examples-2">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="examples-2">Examples<a href="https://github.com/RSA/basics/rest-collector-authentication/#examples-2" class="hash-link" aria-label="Direct link to Examples" title="Direct link to Examples">​</a></h4>
 <ul>
-<li><a href="https://github.com/RSA/blog/docusign">DocuSign</a></li>
-<li><a href="https://github.com/RSA/blog/asana">Asana</a></li>
-<li><a href="https://github.com/RSA/blog/google-workspace">Google Workspace</a></li>
+<li><a href="https://github.com/RSA/basics/blog/docusign/">DocuSign</a></li>
+<li><a href="https://github.com/RSA/basics/blog/asana/">Asana</a></li>
+<li><a href="https://github.com/RSA/basics/blog/google-workspace/">Google Workspace</a></li>
 </ul>
 <p>📓 <strong>References</strong></p>
 <ul>
