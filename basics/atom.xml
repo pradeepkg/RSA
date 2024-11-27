@@ -2,11 +2,96 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/RSA/basics/</id>
     <title>Developers Blog</title>
-    <updated>2024-10-25T00:00:00.000Z</updated>
+    <updated>2024-11-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/RSA/basics/"/>
     <subtitle>Developers Blog</subtitle>
     <icon>https://github.com/RSA/img/iconmonstr-arrow-31.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Active Directory Service Account]]></title>
+        <id>https://github.com/RSA/basics/ad-service-account/</id>
+        <link href="https://github.com/RSA/basics/ad-service-account/"/>
+        <updated>2024-11-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Here are the steps to create and assign permissions to a service account in Active Directory.]]></summary>
+        <content type="html"><![CDATA[<p>Here are the steps to create and assign permissions to a service account in Active Directory.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="create-the-service-account">Create the Service Account<a href="https://github.com/RSA/basics/ad-service-account/#create-the-service-account" class="hash-link" aria-label="Direct link to Create the Service Account" title="Direct link to Create the Service Account">​</a></h3>
+<ol>
+<li>Open <strong>Active Directory Users and Computers (ADUC)</strong>.</li>
+<li>Navigate to the Organizational Unit (OU) where you want to create the service account.</li>
+<li>Right-click on the OU and select <strong>New &gt; User</strong>.</li>
+<li>Fill in the following details:<!-- -->
+<ul>
+<li><strong>First Name</strong>: Enter a name for the service account (e.g., "Service").</li>
+<li><strong>Last Name</strong>: Enter a last name for the service account (e.g., "Account").</li>
+<li><strong>User Logon Name</strong>: Specify a unique logon name (e.g., <code>svc_account</code>).</li>
+</ul>
+</li>
+<li>Click <strong>Next</strong>.</li>
+<li>Set a strong password for the service account and configure the following options as needed:<!-- -->
+<ul>
+<li>Check <strong>Password never expires</strong> if required for long-term use.</li>
+<li>Uncheck <strong>User must change password at next logon</strong>.</li>
+</ul>
+</li>
+<li>Click <strong>Next</strong>, then click <strong>Finish</strong> to create the service account.</li>
+</ol>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="grant-permissions">Grant Permissions<a href="https://github.com/RSA/basics/ad-service-account/#grant-permissions" class="hash-link" aria-label="Direct link to Grant Permissions" title="Direct link to Grant Permissions">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="grant-readwrite-permissions-on-base-dn">Grant Read/Write Permissions on Base DN<a href="https://github.com/RSA/basics/ad-service-account/#grant-readwrite-permissions-on-base-dn" class="hash-link" aria-label="Direct link to Grant Read/Write Permissions on Base DN" title="Direct link to Grant Read/Write Permissions on Base DN">​</a></h4>
+<ol>
+<li>Open <strong>Active Directory Users and Computers (ADUC)</strong>.</li>
+<li>Navigate to the <strong>OU</strong> or domain where you want to assign permissions (e.g., <code>dc=example,dc=com</code> or an OU like <code>Users</code>).</li>
+<li>Right-click on the target OU or domain and select <strong>Properties</strong>.<!-- -->
+<ul>
+<li>If the <strong>Security</strong> tab is not visible, enable it by clicking <strong>View &gt; Advanced Features</strong> in ADUC.</li>
+</ul>
+</li>
+<li>Go to the <strong>Security</strong> tab.</li>
+<li>Click <strong>Add</strong>, enter the name of your service account, and click <strong>OK</strong>.</li>
+<li>In the "Permissions" section:<!-- -->
+<ul>
+<li>Check <strong>Read</strong> and <strong>Write</strong> permissions for objects you want the service account to manage.</li>
+<li>For more granular control, click <strong>Advanced</strong>:<!-- -->
+<ul>
+<li>Select your service account from the list and click <strong>Edit</strong>.</li>
+<li>Specify permissions for specific object types (e.g., users, groups):<!-- -->
+<ul>
+<li>Allow: <code>Read all properties</code>, <code>Write all properties</code>.</li>
+<li>Allow: <code>Create user objects</code>, <code>Delete user objects</code>.</li>
+<li>Allow: <code>Add/remove members from groups</code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="delegate-control-alternative-method">Delegate Control (Alternative Method)<a href="https://github.com/RSA/basics/ad-service-account/#delegate-control-alternative-method" class="hash-link" aria-label="Direct link to Delegate Control (Alternative Method)" title="Direct link to Delegate Control (Alternative Method)">​</a></h4>
+<ol>
+<li>Right-click on the OU or domain where you want to delegate control.</li>
+<li>Select <strong>Delegate Control</strong> from the context menu.</li>
+<li>In the Delegation of Control Wizard:<!-- -->
+<ul>
+<li>Click <strong>Next</strong>, then add your service account.</li>
+<li>Choose tasks like:<!-- -->
+<ul>
+<li>Create, delete, and manage user accounts.</li>
+<li>Modify membership of a group.</li>
+<li>Read all user information.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Complete the wizard to assign delegated permissions.</li>
+</ol>
+<hr>]]></content>
+        <author>
+            <name>Pradeep Kadambar</name>
+            <uri>https://www.linkedin.com/in/pradeepkg/</uri>
+        </author>
+        <category label="Active Directory" term="Active Directory"/>
+        <category label="Service Account" term="Service Account"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Attribute Synchronization]]></title>
         <id>https://github.com/RSA/basics/attribute-sync/</id>
