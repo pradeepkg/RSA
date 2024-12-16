@@ -12,8 +12,8 @@
         <id>https://github.com/RSA/basics/ad-service-account/</id>
         <link href="https://github.com/RSA/basics/ad-service-account/"/>
         <updated>2024-11-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Here are the steps to create and assign permissions to a service account in Active Directory.]]></summary>
-        <content type="html"><![CDATA[<p>Here are the steps to create and assign permissions to a service account in Active Directory.</p>
+        <summary type="html"><![CDATA[This blog provides a step-by-step guide to creating and assigning permissions to a service account in Active Directory, with a focus on integrating RSA Governance & Lifecycle (RSA G&L). It outlines the process to ensure the service account has the necessary permissions to securely read and write data into AD.]]></summary>
+        <content type="html"><![CDATA[<p>This blog provides a step-by-step guide to creating and assigning permissions to a service account in Active Directory, with a focus on integrating <em>RSA Governance &amp; Lifecycle (RSA G&amp;L)</em>. It outlines the process to ensure the service account has the necessary permissions to securely read and write data into AD.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="create-the-service-account">Create the Service Account<a href="https://github.com/RSA/basics/ad-service-account/#create-the-service-account" class="hash-link" aria-label="Direct link to Create the Service Account" title="Direct link to Create the Service Account">​</a></h3>
 <ol>
 <li>Open <strong>Active Directory Users and Computers (ADUC)</strong>.</li>
@@ -97,9 +97,8 @@
         <id>https://github.com/RSA/basics/attribute-sync/</id>
         <link href="https://github.com/RSA/basics/attribute-sync/"/>
         <updated>2024-10-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Overview]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="overview">Overview<a href="https://github.com/RSA/basics/attribute-sync/#overview" class="hash-link" aria-label="Direct link to Overview" title="Direct link to Overview">​</a></h2>
-<p>Attribute synchronization is a process that ensures consistency between user identity data and account data across different systems.</p>
+        <summary type="html"><![CDATA[In this blog, we will explore the process of attribute synchronization using RSA Governance & Lifecycle (RSA G&L), focusing on how it ensures consistency between user identity data and account data across various downstream systems. By automating the synchronization of attributes such as roles, email addresses, and group memberships, RSA G&L simplifies identity management, reduces errors, and ensures that all connected systems maintain accurate and up-to-date information.]]></summary>
+        <content type="html"><![CDATA[<p>In this blog, we will explore the process of attribute synchronization using <em>RSA Governance &amp; Lifecycle (RSA G&amp;L)</em>, focusing on how it ensures consistency between user identity data and account data across various downstream systems. By automating the synchronization of attributes such as roles, email addresses, and group memberships, RSA G&amp;L simplifies identity management, reduces errors, and ensures that all connected systems maintain accurate and up-to-date information.</p>
 <p><img decoding="async" loading="lazy" alt="img" src="https://github.com/RSA/assets/images/attribute-sync-000e9ca74b55479c63329f5c7ba5190d.svg" class="img_ev3q"></p>
 <p>This process is initiated when changes in user attribute values are detected after identity data collection and unification. When such changes occur, the system generates a change request to update the specified target account attributes, which are used to access business sources like applications and directories. Attribute synchronization process can target one or more downstream applications.</p>
 <p><em>e.g. When a user's email attribute in an HR system is linked to the corresponding mail attribute in an Active Directory account, a mapping can be established to ensure that any updates to the user's email are automatically reflected in the Active Directory account. This process requires defining both the source and target attributes for each business source and determining the transformation method needed to update the target attribute accurately.</em></p>
