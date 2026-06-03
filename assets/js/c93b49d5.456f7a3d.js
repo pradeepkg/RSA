@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdocku=globalThis.webpackChunkdocku||[]).push([[9072],{44825(e){e.exports=JSON.parse('{"authors":[{"name":"Pradeep Kadambar","title":"Creator","url":"https://www.linkedin.com/in/pradeepkg/","imageURL":"https://github.com/pradeepkg.png","key":"pradeepkg","page":null,"count":1}]}')}}]);
