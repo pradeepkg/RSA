@@ -168,7 +168,7 @@
             <guid>https://pradeepkg.github.io/RSA/basics/data-processors-adc/</guid>
             <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[In this blog post, I will guide you through the effective utilization of data processors during account collections to address common use cases. If you are not familiar with data processors, I recommend reading the Data Processors Basics before proceeding, as it will provide a foundational understanding of the concepts discussed in this blog.]]></description>
-            <content:encoded><![CDATA[<p>In this blog post, I will guide you through the effective utilization of data processors during account collections to address common use cases. If you are not familiar with data processors, I recommend reading the <strong><a class="" href="https://pradeepkg.github.io/RSA/basics/data-processors-adc/data-processors-basics/">Data Processors Basics</a></strong> before proceeding, as it will provide a foundational understanding of the concepts discussed in this blog.</p>
+            <content:encoded><![CDATA[<p>In this blog post, I will guide you through the effective utilization of data processors during account collections to address common use cases. If you are not familiar with data processors, I recommend reading the <strong><a class="" href="https://pradeepkg.github.io/RSA/basics/data-processors-basics/">Data Processors Basics</a></strong> before proceeding, as it will provide a foundational understanding of the concepts discussed in this blog.</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="manipulating-account-resolution-attribute">Manipulating Account Resolution Attribute<a href="https://pradeepkg.github.io/RSA/basics/data-processors-adc/#manipulating-account-resolution-attribute" class="hash-link" aria-label="Direct link to Manipulating Account Resolution Attribute" title="Direct link to Manipulating Account Resolution Attribute" translate="no">​</a></h3>
 <p>In the scenario where admin accounts collected from Active Directory ADC are identified as orphans, with <em>sAMAccountName</em> formats differing from regular user accounts, we can resolve this by employing the <em>Pre_ADC_Handler</em>. This handler allows us to manipulate the raw data collected from the application and convert it to the desired format.</p>
 <p>To implement this solution, follow the steps below:</p>
@@ -240,7 +240,7 @@
             <guid>https://pradeepkg.github.io/RSA/basics/data-processors-idc/</guid>
             <pubDate>Wed, 31 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[In this blog post, I will guide you through the effective utilization of pre and post processors during identity collections to address common use cases. If you are not familiar with data processors, I recommend reading the Data Processors Basics before proceeding, as it will provide a foundational understanding for the concepts discussed in this blog.]]></description>
-            <content:encoded><![CDATA[<p>In this blog post, I will guide you through the effective utilization of pre and post processors during identity collections to address common use cases. If you are not familiar with data processors, I recommend reading the <strong><a class="" href="https://pradeepkg.github.io/RSA/basics/data-processors-idc/data-processors-basics/">Data Processors Basics</a></strong> before proceeding, as it will provide a foundational understanding for the concepts discussed in this blog.</p>
+            <content:encoded><![CDATA[<p>In this blog post, I will guide you through the effective utilization of pre and post processors during identity collections to address common use cases. If you are not familiar with data processors, I recommend reading the <strong><a class="" href="https://pradeepkg.github.io/RSA/basics/data-processors-basics/">Data Processors Basics</a></strong> before proceeding, as it will provide a foundational understanding for the concepts discussed in this blog.</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="enabling-data-processors">Enabling Data Processors<a href="https://pradeepkg.github.io/RSA/basics/data-processors-idc/#enabling-data-processors" class="hash-link" aria-label="Direct link to Enabling Data Processors" title="Direct link to Enabling Data Processors" translate="no">​</a></h3>
 <p>Data processing is an advanced feature that requires explicit activation by the System Administrator. To enable this feature, follow the steps outlined below:</p>
 <ol>
@@ -317,8 +317,8 @@ with caution and discretion.</p></div></div>]]></content:encoded>
 <p>The API configuration page will look something like this without needing any explicit <code>Authorization</code> headers.<br><img decoding="async" loading="lazy" alt="img" src="https://pradeepkg.github.io/RSA/assets/images/basic-2-7d392b321545184e6ad5b1dc3eab61b9.png" width="531" height="265" class="img_ev3q"></p>
 <p><strong>Examples</strong></p>
 <ul>
-<li class=""><a class="" href="https://pradeepkg.github.io/RSA/basics/blog/freshservice/">Freshservice</a></li>
-<li class=""><a class="" href="https://pradeepkg.github.io/RSA/basics/blog/zendesk/">Zendesk</a></li>
+<li class=""><a class="" href="https://pradeepkg.github.io/RSA/blog/freshservice/">Freshservice</a></li>
+<li class=""><a class="" href="https://pradeepkg.github.io/RSA/blog/zendesk/">Zendesk</a></li>
 </ul>
 <p>📓 <strong>References</strong></p>
 <ul>
@@ -338,14 +338,14 @@ with caution and discretion.</p></div></div>]]></content:encoded>
 <table><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>1</td><td><strong>User Authentication Type</strong></td><td>Token</td></tr><tr><td>2</td><td><strong>Get Token from URL</strong></td><td>Unchecked</td></tr><tr><td>3</td><td><strong>Authentication Token</strong></td><td>Static token value</td></tr></tbody></table>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="examples">Examples<a href="https://pradeepkg.github.io/RSA/basics/rest-collector-authentication/#examples" class="hash-link" aria-label="Direct link to Examples" title="Direct link to Examples" translate="no">​</a></h4>
 <ul>
-<li class=""><a class="" href="https://pradeepkg.github.io/RSA/basics/blog/sentry/">Sentry</a></li>
+<li class=""><a class="" href="https://pradeepkg.github.io/RSA/blog/sentry/">Sentry</a></li>
 </ul>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="dynamic-token">Dynamic Token<a href="https://pradeepkg.github.io/RSA/basics/rest-collector-authentication/#dynamic-token" class="hash-link" aria-label="Direct link to Dynamic Token" title="Direct link to Dynamic Token" translate="no">​</a></h4>
 <p>The configuration for getting a dynamic token can vary from endpoint to endpoint. Generally the token URL accepts requests over <strong>POST</strong> with additional authentication requirements passed through the POST body. The collector does support dynamic token calls over <strong>GET</strong> if needed.</p>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="examples-1">Examples<a href="https://pradeepkg.github.io/RSA/basics/rest-collector-authentication/#examples-1" class="hash-link" aria-label="Direct link to Examples" title="Direct link to Examples" translate="no">​</a></h4>
 <ul>
-<li class=""><a class="" href="https://pradeepkg.github.io/RSA/basics/blog/pingone/">PingOne</a></li>
-<li class=""><a class="" href="https://pradeepkg.github.io/RSA/basics/blog/dynatrace/">Dynatrace</a></li>
+<li class=""><a class="" href="https://pradeepkg.github.io/RSA/blog/pingone/">PingOne</a></li>
+<li class=""><a class="" href="https://pradeepkg.github.io/RSA/blog/dynatrace/">Dynatrace</a></li>
 </ul>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="oauth2">OAuth2<a href="https://pradeepkg.github.io/RSA/basics/rest-collector-authentication/#oauth2" class="hash-link" aria-label="Direct link to OAuth2" title="Direct link to OAuth2" translate="no">​</a></h3>
 <p>This authentication type supports the OAuth 2 authorization flow.</p>
@@ -354,9 +354,9 @@ with caution and discretion.</p></div></div>]]></content:encoded>
 <p>Once the above configurations are set, click on <em><strong>Get OAuth 2.0 Access Token</strong></em> to send the authorization request. Depending on the target application, you may have to go through the authentication process and once completed will return the <code>code</code>, <code>refresh_token</code>, <code>access_token</code> to  <a href="https://instance.securid.com/aveksa/oauth/callback" target="_blank" rel="noopener noreferrer" class="">https://instance.securid.com/aveksa/oauth/callback</a></p>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="examples-2">Examples<a href="https://pradeepkg.github.io/RSA/basics/rest-collector-authentication/#examples-2" class="hash-link" aria-label="Direct link to Examples" title="Direct link to Examples" translate="no">​</a></h4>
 <ul>
-<li class=""><a class="" href="https://pradeepkg.github.io/RSA/basics/blog/docusign/">DocuSign</a></li>
-<li class=""><a class="" href="https://pradeepkg.github.io/RSA/basics/blog/asana/">Asana</a></li>
-<li class=""><a class="" href="https://pradeepkg.github.io/RSA/basics/blog/google-workspace/">Google Workspace</a></li>
+<li class=""><a class="" href="https://pradeepkg.github.io/RSA/blog/docusign/">DocuSign</a></li>
+<li class=""><a class="" href="https://pradeepkg.github.io/RSA/blog/asana/">Asana</a></li>
+<li class=""><a class="" href="https://pradeepkg.github.io/RSA/blog/google-workspace/">Google Workspace</a></li>
 </ul>
 <p>📓 <strong>References</strong></p>
 <ul>
