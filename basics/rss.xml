@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Developers Blog</title>
+        <title>RSA G&amp;L Developer Portal Blog</title>
         <link>https://pradeepkg.github.io/RSA/basics/</link>
-        <description>Developers Blog</description>
+        <description>RSA G&amp;L Developer Portal Blog</description>
         <lastBuildDate>Wed, 27 Nov 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>

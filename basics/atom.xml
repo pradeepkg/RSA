@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pradeepkg.github.io/RSA/basics/</id>
-    <title>Developers Blog</title>
+    <title>RSA G&amp;L Developer Portal Blog</title>
     <updated>2024-11-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pradeepkg.github.io/RSA/basics/"/>
-    <subtitle>Developers Blog</subtitle>
+    <subtitle>RSA G&amp;L Developer Portal Blog</subtitle>
     <icon>https://pradeepkg.github.io/RSA/img/iconmonstr-arrow-31.svg</icon>
     <entry>
         <title type="html"><![CDATA[Active Directory Service Account]]></title>

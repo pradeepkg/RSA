@@ -1,12 +1,192 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pradeepkg.github.io/RSA/pam/</id>
-    <title>Developers Blog</title>
-    <updated>2026-03-06T00:00:00.000Z</updated>
+    <title>RSA G&amp;L Developer Portal Blog</title>
+    <updated>2026-04-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pradeepkg.github.io/RSA/pam/"/>
-    <subtitle>Developers Blog</subtitle>
+    <subtitle>RSA G&amp;L Developer Portal Blog</subtitle>
     <icon>https://pradeepkg.github.io/RSA/img/iconmonstr-arrow-31.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Keeper Enterprise]]></title>
+        <id>https://pradeepkg.github.io/RSA/pam/keeper/</id>
+        <link href="https://pradeepkg.github.io/RSA/pam/keeper/"/>
+        <updated>2026-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Keeper Enterprise is a zero-knowledge, end-to-end encrypted secrets management platform with privileged access management capabilities. It provides secure credential vaulting, just-in-time access, and password rotation for enterprise infrastructure across cloud, on-premises, and hybrid environments.Versions: 8.0.0 P10]]></summary>
+        <content type="html"><![CDATA[<table><tbody><tr><td width="180" class="image-cell"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFVWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSfvu78nIGlkPSdXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQnPz4KPHg6eG1wbWV0YSB4bWxuczp4PSdhZG9iZTpuczptZXRhLyc+CjxyZGY6UkRGIHhtbG5zOnJkZj0naHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyc+CgogPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9JycKICB4bWxuczpBdHRyaWI9J2h0dHA6Ly9ucy5hdHRyaWJ1dGlvbi5jb20vYWRzLzEuMC8nPgogIDxBdHRyaWI6QWRzPgogICA8cmRmOlNlcT4KICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0nUmVzb3VyY2UnPgogICAgIDxBdHRyaWI6Q3JlYXRlZD4yMDI2LTA0LTE1PC9BdHRyaWI6Q3JlYXRlZD4KICAgICA8QXR0cmliOkRhdGE+eyZxdW90O2RvYyZxdW90OzomcXVvdDtEQUdWRXRTZTlJayZxdW90OywmcXVvdDt1c2VyJnF1b3Q7OiZxdW90O1VBREo3aW5tamlJJnF1b3Q7LCZxdW90O2JyYW5kJnF1b3Q7OiZxdW90O1BSRUtTSEEgSkFJTiYjMzk7cyBDbGFzcyZxdW90O308L0F0dHJpYjpEYXRhPgogICAgIDxBdHRyaWI6RXh0SWQ+ZDU1ZjUyMjctMjVkMC00N2JkLWJhMzYtZGJhMjVjMjNlNWNhPC9BdHRyaWI6RXh0SWQ+CiAgICAgPEF0dHJpYjpGYklkPjUyNTI2NTkxNDE3OTU4MDwvQXR0cmliOkZiSWQ+CiAgICAgPEF0dHJpYjpUb3VjaFR5cGU+MjwvQXR0cmliOlRvdWNoVHlwZT4KICAgIDwvcmRmOmxpPgogICA8L3JkZjpTZXE+CiAgPC9BdHRyaWI6QWRzPgogPC9yZGY6RGVzY3JpcHRpb24+CgogPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9JycKICB4bWxuczpkYz0naHR0cDovL3B1cmwub3JnL2Rj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" width="180" height="180">Keeper Enterprise is a zero-knowledge, end-to-end encrypted secrets management platform with privileged access management capabilities. It provides secure credential vaulting, just-in-time access, and password rotation for enterprise infrastructure across cloud, on-premises, and hybrid environments.<br><br>Versions: <code>8.0.0 P10</code></td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introduction">Introduction<a href="https://pradeepkg.github.io/RSA/pam/keeper/#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction" translate="no">​</a></h2>
+<p>This plugin integrates RSA Governance and Lifecycle (G&amp;L) with Keeper Enterprise using the Keeper Secrets Manager (KSM) Java SDK. It retrieves credentials for use by collectors and connectors. Credentials are not cached; each retrieval fetches the current password directly from Keeper. All HTTPS transport and end-to-end encryption are handled by the KSM SDK.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="prerequisites">Prerequisites<a href="https://pradeepkg.github.io/RSA/pam/keeper/#prerequisites" class="hash-link" aria-label="Direct link to Prerequisites" title="Direct link to Prerequisites" translate="no">​</a></h2>
+<p>Ensure you have the following:</p>
+<ul>
+<li class="">Administrative access to your Keeper Enterprise vault.</li>
+<li class="">The Keeper Secrets Manager CLI installed on a machine used to initialize credentials.</li>
+<li class="">A list of managed accounts that RSA G&amp;L will access.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="keeper-side-setup">Keeper Side Setup<a href="https://pradeepkg.github.io/RSA/pam/keeper/#keeper-side-setup" class="hash-link" aria-label="Direct link to Keeper Side Setup" title="Direct link to Keeper Side Setup" translate="no">​</a></h2>
+<p>This section describes how to configure Keeper Enterprise for SDK-based access by RSA G&amp;L.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>This section is provided for reference only. Contact your Keeper administrator to configure Keeper Enterprise in line with your organization's security requirements.</p></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-1-create-a-shared-folder">Step 1: Create a Shared Folder<a href="https://pradeepkg.github.io/RSA/pam/keeper/#step-1-create-a-shared-folder" class="hash-link" aria-label="Direct link to Step 1: Create a Shared Folder" title="Direct link to Step 1: Create a Shared Folder" translate="no">​</a></h3>
+<p>Keeper Secrets Manager applications can only access Shared Folders. Regular folders are not visible to the SDK.</p>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>warning</div><div class="admonitionContent_BuS1"><p>Use <strong>Create New &gt; Shared Folder</strong> (identified by a two-person icon). If you use <strong>Create New &gt; Folder</strong> (plain folder), the KSM application will not see it. If the folder does not appear in Secrets Manager, delete it and recreate it as a Shared Folder.</p></div></div>
+<ol>
+<li class="">
+<p>Log in to <strong>Keeper Vault</strong> at <code>keepersecurity.com</code>.</p>
+</li>
+<li class="">
+<p>Click <strong>Create New</strong> &gt; <strong>Shared Folder</strong>.</p>
+</li>
+<li class="">
+<p>Complete the following fields and click <strong>Create</strong>.</p>
+<table><thead><tr><th>Field</th><th>Value</th></tr></thead><tbody><tr><td><strong>Folder Name</strong></td><td>A descriptive name, for example <code>AD Credentials</code></td></tr><tr><td><strong>User Permissions</strong></td><td><code>No User Permissions</code></td></tr><tr><td><strong>Record Permissions</strong></td><td><code>View Only</code></td></tr></tbody></table>
+</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-2-create-a-login-record">Step 2: Create a Login Record<a href="https://pradeepkg.github.io/RSA/pam/keeper/#step-2-create-a-login-record" class="hash-link" aria-label="Direct link to Step 2: Create a Login Record" title="Direct link to Step 2: Create a Login Record" translate="no">​</a></h3>
+<ol>
+<li class="">
+<p>In <strong>My Vault</strong>, open the shared folder, click the folder menu <strong>(...)</strong>, and select <strong>New Record</strong>.</p>
+</li>
+<li class="">
+<p>Select record type <strong>Login</strong>.</p>
+</li>
+<li class="">
+<p>Complete the following fields and click <strong>Save</strong>.</p>
+<table><thead><tr><th>Field</th><th>Value</th></tr></thead><tbody><tr><td><strong>Title</strong></td><td>A descriptive name for the account, for example <code>AD Service Account</code></td></tr><tr><td><strong>Login</strong></td><td>The username</td></tr><tr><td><strong>Password</strong></td><td>The credential password</td></tr></tbody></table>
+</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-3-note-the-record-uid">Step 3: Note the Record UID<a href="https://pradeepkg.github.io/RSA/pam/keeper/#step-3-note-the-record-uid" class="hash-link" aria-label="Direct link to Step 3: Note the Record UID" title="Direct link to Step 3: Note the Record UID" translate="no">​</a></h3>
+<p>The Record UID is the permanent identifier used by the plugin to locate a record. It does not change if the record is renamed or moved.</p>
+<ol>
+<li class="">Open the record in Keeper Vault.</li>
+<li class="">Click the record menu <strong>(...)</strong> at the top-right of the record panel and select <strong>Record Info</strong>.</li>
+<li class="">Copy the <strong>UID</strong>, a 22-character Base64 string, for example <code>YSq-xxLdgsO2RJbz46EKkA</code>.</li>
+</ol>
+<p>This value is entered in the G&amp;L vault profile as the <strong>Record UID</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-4-create-a-ksm-application">Step 4: Create a KSM Application<a href="https://pradeepkg.github.io/RSA/pam/keeper/#step-4-create-a-ksm-application" class="hash-link" aria-label="Direct link to Step 4: Create a KSM Application" title="Direct link to Step 4: Create a KSM Application" translate="no">​</a></h3>
+<ol>
+<li class="">In Keeper Vault, click <strong>Secrets Manager</strong> in the left sidebar.</li>
+<li class="">Click <strong>Create Application</strong>, enter a name (for example <code>GL-PAM</code>), and click <strong>Save</strong>.</li>
+<li class="">With the application selected, click the <strong>Folders and Records</strong> tab.</li>
+<li class="">Search for and select your shared folder. It is added with <strong>Read Only</strong> access.</li>
+<li class="">Click <strong>Save</strong>. The <strong>Records</strong> column should show a count greater than zero.</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-5-generate-an-access-token-and-initialize-credentials">Step 5: Generate an Access Token and Initialize Credentials<a href="https://pradeepkg.github.io/RSA/pam/keeper/#step-5-generate-an-access-token-and-initialize-credentials" class="hash-link" aria-label="Direct link to Step 5: Generate an Access Token and Initialize Credentials" title="Direct link to Step 5: Generate an Access Token and Initialize Credentials" translate="no">​</a></h3>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>warning</div><div class="admonitionContent_BuS1"><p>One-time access tokens cannot be retrieved after generation. Copy the token before closing this dialog.</p></div></div>
+<ol>
+<li class="">
+<p>With the application selected, click the <strong>Devices</strong> tab and click <strong>Add Device</strong>.</p>
+</li>
+<li class="">
+<p>Complete the following fields.</p>
+<table><thead><tr><th>Field</th><th>Value</th></tr></thead><tbody><tr><td><strong>Device Name</strong></td><td>A descriptive name, for example <code>GL-PAM-Plugin</code></td></tr><tr><td><strong>Method</strong></td><td><code>One-Time Access Token</code></td></tr><tr><td><strong>Lock external WAN IP</strong></td><td>Leave unchecked</td></tr></tbody></table>
+</li>
+<li class="">
+<p>Click <strong>Generate Access Token</strong> and copy the token. The format is <code>US:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</code>.</p>
+</li>
+<li class="">
+<p>On any machine with the KSM CLI installed, run the following to exchange the token for permanent credentials.</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain"># Install the CLI (one-time setup)</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">pip install keeper-secrets-manager-cli</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"># Exchange the token — creates keeper.ini in your home directory</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">ksm profile init --token &lt;YOUR_ONE_TIME_TOKEN&gt;</span><br></div></code></pre></div></div>
+</li>
+<li class="">
+<p>Open the generated <code>keeper.ini</code> file (<code>%USERPROFILE%\keeper.ini</code> on Windows, <code>~/keeper.ini</code> on Linux/macOS).</p>
+<div class="language-ini codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-ini codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">[_default]</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">clientid          = &lt;base64 string&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">privatekey        = &lt;base64 string&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">appkey            = &lt;base64 string&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">hostname          = keepersecurity.com</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">appownerpublickey = &lt;base64 string&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">serverpublickeyid = 10</span><br></div></code></pre></div></div>
+<p>Each value maps directly to a field in the G&amp;L vault configuration in the next section.</p>
+</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="installation-and-configuration-in-gl">Installation and Configuration in G&amp;L<a href="https://pradeepkg.github.io/RSA/pam/keeper/#installation-and-configuration-in-gl" class="hash-link" aria-label="Direct link to Installation and Configuration in G&amp;L" title="Direct link to Installation and Configuration in G&amp;L" translate="no">​</a></h2>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>Requires RSA Governance and Lifecycle 8.0.0 Patch 10 or later.</p></div></div>
+<p>Complete the <a href="https://pradeepkg.github.io/RSA/pam/keeper/#keeper-side-setup" class="">Keeper Side Setup</a> section before proceeding. You will need the values from the <code>keeper.ini</code> file generated in Step 5.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-1-install-the-plugin">Step 1: Install the Plugin<a href="https://pradeepkg.github.io/RSA/pam/keeper/#step-1-install-the-plugin" class="hash-link" aria-label="Direct link to Step 1: Install the Plugin" title="Direct link to Step 1: Install the Plugin" translate="no">​</a></h3>
+<ol>
+<li class="">
+<p>Log in to the RSA G&amp;L UI as a <strong>System Administrator</strong>.</p>
+</li>
+<li class="">
+<p>Open the <strong>Admin</strong> menu and click <strong>System</strong>.</p>
+</li>
+<li class="">
+<p>Click the <strong>Password Vault</strong> tab.</p>
+</li>
+<li class="">
+<p>Scroll to the <strong>Vault Types</strong> section and click <strong>Upload New Vault Type</strong>.</p><p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/01-de3e95265b52d10ce55f2ed791f007ff.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p><p></p>
+</li>
+<li class="">
+<p>Enter a <strong>Vault Type Name</strong> (for example, <code>Keeper-Enterprise</code>) and an optional description. Click <strong>Choose File</strong>, select the distribution JAR (<code>keeper-enterprise-plugin-dist-1.0-&lt;timestamp&gt;.jar</code>), and click <strong>OK</strong>.</p><p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/02-ec6ae9fd1e41c4646582fd2ce3552b72.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p><p></p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>After uploading, restart all remote G&amp;L agents to load the new vault type.</p></div></div>
+</li>
+<li class="">
+<p>After the upload completes, <strong>Keeper-Enterprise</strong> appears in the Vault Types list.</p><p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/03-2f91f9a4df61ef3030ffeef4ce59ff83.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p><p></p>
+</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-2-configure-the-password-vault">Step 2: Configure the Password Vault<a href="https://pradeepkg.github.io/RSA/pam/keeper/#step-2-configure-the-password-vault" class="hash-link" aria-label="Direct link to Step 2: Configure the Password Vault" title="Direct link to Step 2: Configure the Password Vault" translate="no">​</a></h3>
+<ol>
+<li class="">
+<p>Scroll to the <strong>Password Vault Configuration</strong> section. Select <strong>Keeper-Enterprise</strong> from the dropdown and click <strong>+ Create</strong>.</p><p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/04-b083ebe878e6e395b3bb8c5939e5eda2.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p><p></p>
+</li>
+<li class="">
+<p>Copy the values from <code>keeper.ini</code> into the corresponding fields, click <strong>Test Connection</strong>, and click <strong>OK</strong> to save.</p>
+<table><thead><tr><th>G&amp;L Field</th><th><code>keeper.ini</code> Key</th><th>Description</th></tr></thead><tbody><tr><td><strong>Hostname</strong></td><td><code>hostname</code></td><td>Keeper server hostname. Varies by region: <code>keepersecurity.com</code> (US), <code>keepersecurity.eu</code> (EU), <code>keepersecurity.com.au</code> (AU), <code>keepersecurity.jp</code> (JP), <code>keepersecurity.ca</code> (CA)</td></tr><tr><td><strong>Client ID</strong></td><td><code>clientid</code></td><td>Base64-encoded application identity</td></tr><tr><td><strong>Private Key</strong></td><td><code>privatekey</code></td><td>Base64-encoded ECC private key (masked)</td></tr><tr><td><strong>App Key</strong></td><td><code>appkey</code></td><td>Base64-encoded application encryption key (masked)</td></tr><tr><td><strong>App Owner Public Key</strong></td><td><code>appownerpublickey</code></td><td>Optional but recommended</td></tr><tr><td><strong>Server Public Key ID</strong></td><td><code>serverpublickeyid</code></td><td>Defaults to <code>10</code></td></tr></tbody></table>
+<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/05-5888996e558eb5efbcfe7ea46a18b044.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p>
+</li>
+<li class="">
+<p>The saved configuration shows <strong>Edit</strong>, <strong>Test Connection</strong>, and <strong>Delete</strong> options. Use <strong>Test Connection</strong> at any time to verify connectivity.</p><p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/06-8dff07fb6f93aff20ae6c23fa481e1ba.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p><p></p>
+</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-3-create-vault-profiles">Step 3: Create Vault Profiles<a href="https://pradeepkg.github.io/RSA/pam/keeper/#step-3-create-vault-profiles" class="hash-link" aria-label="Direct link to Step 3: Create Vault Profiles" title="Direct link to Step 3: Create Vault Profiles" translate="no">​</a></h3>
+<p>A vault profile maps a G&amp;L managed account to a specific record in Keeper by its UID. Create one profile per account.</p>
+<ol>
+<li class="">
+<p>Navigate to the <strong>Password Vault Profiles</strong> section and click <strong>+ Create Profile</strong>.</p><p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/07-8179b6935e93627ebf1bcfef383bb304.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p><p></p>
+</li>
+<li class="">
+<p>Complete the following fields and click <strong>Test Profile</strong>. A <code>Credential retrieved successfully</code> response confirms the UID is valid and the password is accessible. Click <strong>OK</strong> to save.</p>
+<table><thead><tr><th>Field</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><strong>Name</strong></td><td>Display name for this profile</td><td><code>Active Directory</code></td></tr><tr><td><strong>Description</strong></td><td>Optional description</td><td><code>AD service account</code></td></tr><tr><td><strong>Record UID</strong></td><td>The 22-character Base64 UID copied in <a href="https://pradeepkg.github.io/RSA/pam/keeper/#step-3-note-the-record-uid" class="">Step 3</a> of the Keeper Side Setup</td><td><code>YSq-xxLdgsO2RJbz46EKkA</code></td></tr></tbody></table>
+<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/08-871e0ae78a38d030571112e96439ac41.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p>
+</li>
+<li class="">
+<p>The profile appears in the list. The <strong>Identifier</strong> column shows the Record UID.</p><p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/09-08301fb8c5417ddfa133cd86bb593c87.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p><p></p>
+</li>
+<li class="">
+<p>Repeat for each account that requires Keeper password retrieval.</p>
+</li>
+<li class="">
+<p>In G&amp;L, open the collector or connector configuration, locate <strong>Use Password Vault</strong>, select the profile, click <strong>Test</strong>, and save.</p>
+</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="known-limitations">Known Limitations<a href="https://pradeepkg.github.io/RSA/pam/keeper/#known-limitations" class="hash-link" aria-label="Direct link to Known Limitations" title="Direct link to Known Limitations" translate="no">​</a></h2>
+<ul>
+<li class="">
+<p><strong>Records are accessed by UID, not by title.</strong> Record UIDs are permanent and do not change if a record is renamed or moved. If a record is deleted and recreated, its UID changes and the vault profile must be updated.</p>
+</li>
+<li class="">
+<p><strong>The KSM application must have access to the record's Shared Folder.</strong> If the record is moved out of the shared folder that the KSM application can access, credential retrieval will fail. Verify folder membership in Keeper Vault under <strong>Secrets Manager</strong> &gt; application &gt; <strong>Folders and Records</strong>.</p>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="troubleshooting">Troubleshooting<a href="https://pradeepkg.github.io/RSA/pam/keeper/#troubleshooting" class="hash-link" aria-label="Direct link to Troubleshooting" title="Direct link to Troubleshooting" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="connection-errors">Connection Errors<a href="https://pradeepkg.github.io/RSA/pam/keeper/#connection-errors" class="hash-link" aria-label="Direct link to Connection Errors" title="Direct link to Connection Errors" translate="no">​</a></h3>
+<ul>
+<li class="">Verify that all six vault configuration fields match the values in <code>keeper.ini</code> exactly.</li>
+<li class="">Confirm the <strong>Hostname</strong> matches your Keeper region.</li>
+<li class="">Check that the KSM application is active and has not been deleted in Keeper Vault.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="record-not-found">Record Not Found<a href="https://pradeepkg.github.io/RSA/pam/keeper/#record-not-found" class="hash-link" aria-label="Direct link to Record Not Found" title="Direct link to Record Not Found" translate="no">​</a></h3>
+<ul>
+<li class="">Confirm the <strong>Record UID</strong> in the vault profile is correct.</li>
+<li class="">Verify the record is inside a Shared Folder that the KSM application can access.</li>
+<li class="">In Keeper Vault, go to <strong>Secrets Manager</strong> &gt; application &gt; <strong>Folders and Records</strong> and confirm the folder is listed with a record count greater than zero.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="access-denied-errors">Access Denied Errors<a href="https://pradeepkg.github.io/RSA/pam/keeper/#access-denied-errors" class="hash-link" aria-label="Direct link to Access Denied Errors" title="Direct link to Access Denied Errors" translate="no">​</a></h3>
+<ul>
+<li class="">Verify the KSM application has <strong>Read Only</strong> access to the shared folder.</li>
+<li class="">Confirm the shared folder contains the target record and has not been moved or deleted.</li>
+</ul>]]></content>
+        <author>
+            <name>Pradeep Kadambar</name>
+            <uri>https://www.linkedin.com/in/pradeepkg/</uri>
+        </author>
+        <category label="Keeper" term="Keeper"/>
+        <category label="PAM" term="PAM"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BeyondTrust Password Safe]]></title>
         <id>https://pradeepkg.github.io/RSA/pam/beyondtrust/</id>

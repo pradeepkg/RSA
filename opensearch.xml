@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>Developers</ShortName>
-  <Description>Search Developers</Description>
+  <ShortName>RSA G&amp;L Developer Portal</ShortName>
+  <Description>Search RSA G&amp;L Developer Portal</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">https://pradeepkg.github.io/RSA/img/iconmonstr-arrow-31.svg</Image>
   <Url type="text/html" method="get" template="https://pradeepkg.github.io/RSA/search?q={searchTerms}"/>
