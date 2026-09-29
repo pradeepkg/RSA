@@ -2,89 +2,159 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pradeepkg.github.io/RSA/basics/</id>
     <title>RSA G&amp;L Developer Portal Blog</title>
-    <updated>2024-11-27T00:00:00.000Z</updated>
+    <updated>2026-08-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pradeepkg.github.io/RSA/basics/"/>
     <subtitle>RSA G&amp;L Developer Portal Blog</subtitle>
     <icon>https://pradeepkg.github.io/RSA/img/iconmonstr-arrow-31.svg</icon>
     <entry>
-        <title type="html"><![CDATA[Active Directory Service Account]]></title>
+        <title type="html"><![CDATA[Provisioning Command Response Handling]]></title>
+        <id>https://pradeepkg.github.io/RSA/basics/provcmd-response-handling/</id>
+        <link href="https://pradeepkg.github.io/RSA/basics/provcmd-response-handling/"/>
+        <updated>2026-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A Provisioning Command activity in an RSA Identity Governance & Lifecycle (G&L) workflow sends an account change to a target connector. By default, the activity's own success/failure transition only confirms that the node executed. It does not confirm whether the target system actually applied the change. To get the real outcome, enable Wait for Result and read the status job properties it populates.]]></summary>
+        <content type="html"><![CDATA[<p>A <strong>Provisioning Command</strong> activity in an RSA Identity Governance &amp; Lifecycle (G&amp;L) workflow sends an account change to a target connector. By default, the activity's own success/failure transition only confirms that the node executed. It does not confirm whether the target system actually applied the change. To get the real outcome, enable <strong>Wait for Result</strong> and read the status job properties it populates.</p>
+<p><img decoding="async" loading="lazy" alt="img" src="https://pradeepkg.github.io/RSA/assets/images/1-ebb9e60ec95b0d87c914711f272794ef.png" width="1497" height="620" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="node-execution-status-vs-provisioning-outcome">Node execution status vs. provisioning outcome<a href="https://pradeepkg.github.io/RSA/basics/provcmd-response-handling/#node-execution-status-vs-provisioning-outcome" class="hash-link" aria-label="Direct link to Node execution status vs. provisioning outcome" title="Direct link to Node execution status vs. provisioning outcome" translate="no">​</a></h2>
+<p>The Provisioning Command node itself completes with a status of <code>0</code> if it executed and <code>-1</code> if it did not. RSA's documentation is explicit that this status "only confirms if the Provisioning Command executed, and does not actually represent the status of the Provisioning event." A node can report successful execution even when the target connector rejected the change.</p>
+<p>To check the actual provisioning result, enable <strong>Wait for Result</strong> on the Provisioning Command node.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="job-properties">Job properties<a href="https://pradeepkg.github.io/RSA/basics/provcmd-response-handling/#job-properties" class="hash-link" aria-label="Direct link to Job properties" title="Direct link to Job properties" translate="no">​</a></h2>
+<p>With <strong>Wait for Result</strong> enabled, G&amp;L sets the following job properties once the command returns. These are visible on the <strong>Job Properties</strong> panel of a Workflow Job for troubleshooting, and can also be read into the workflow itself (see below).</p>
+<table><thead><tr><th>Property</th><th>Description</th></tr></thead><tbody><tr><td><code>acm.provisioningCommandStatusCode</code></td><td>Numeric outcome of the command. RSA Knowledge Base article 000065579 (versions 6.9.1–7.1.1) documents <code>0</code> for success and <code>-1</code> for failure. On later releases this convention may differ. A failed command was observed with a value of <code>1</code> on one G&amp;L 10.x instance, so confirm the actual values against your own environment rather than assuming <code>-1</code>.</td></tr><tr><td><code>acm.provisioningCommandStatusMessage</code></td><td>Short text summary of the outcome; <code>Success</code> when the command succeeds.</td></tr><tr><td><code>acm.provisioningCommandDetailedMessage</code></td><td>Full error detail returned by the target connector when the command fails, for example the underlying exception and error code from the target directory or database.</td></tr><tr><td><code>acm.cleanuponcompletion</code></td><td>Boolean flag controlling whether G&amp;L removes the provisioning command record once the job completes.</td></tr></tbody></table>
+<p><code>acm.provisioningCommandDetailedMessage</code> and <code>acm.cleanuponcompletion</code> are available in RSA Identity Governance &amp; Lifecycle 8.0.0 P12 or later.</p>
+<p>These values are overwritten by the next Provisioning Command node in the workflow, so read them immediately after the node they belong to before running another provisioning command.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="example-a-failed-command">Example: a failed command<a href="https://pradeepkg.github.io/RSA/basics/provcmd-response-handling/#example-a-failed-command" class="hash-link" aria-label="Direct link to Example: a failed command" title="Direct link to Example: a failed command" translate="no">​</a></h2>
+<p>The following <code>acm.provisioningCommandDetailedMessage</code> value was observed for a failed command targeting an LDAP directory:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">Cause: javax.naming.directory.SchemaViolationException:</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  [LDAP: error code 65 - 0000207D: UpdErr: DSID-0315166D, ...]</span><br></div></code></pre></div></div>
+<p><code>error code 65</code> and the <code>DSID-...</code> identifier are standard Microsoft Active Directory LDAP diagnostic codes, not environment-specific values. The message points to a schema violation on the target directory, which is what you'd hand to an administrator or log for troubleshooting.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reading-the-variables">Reading the variables<a href="https://pradeepkg.github.io/RSA/basics/provcmd-response-handling/#reading-the-variables" class="hash-link" aria-label="Direct link to Reading the variables" title="Direct link to Reading the variables" translate="no">​</a></h2>
+<p>Add a <strong>SQL Select</strong> node after the Provisioning Command node to pull the values into workflow variables:</p>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">SELECT</span><span class="token plain"> ${jobUserData_acm</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">provisioningCommandStatusCode} </span><span class="token keyword" style="color:#00009f">AS</span><span class="token plain"> errorcode</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">${jobUserData_acm</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">provisioningCommandStatusMessage} </span><span class="token keyword" style="color:#00009f">AS</span><span class="token plain"> errormsg</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">FROM</span><span class="token plain"> DUAL</span><br></div></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="branching-on-the-result">Branching on the result<a href="https://pradeepkg.github.io/RSA/basics/provcmd-response-handling/#branching-on-the-result" class="hash-link" aria-label="Direct link to Branching on the result" title="Direct link to Branching on the result" translate="no">​</a></h2>
+<p>Add a <strong>Decision</strong> node after the SQL Select node and evaluate the returned <code>errorcode</code>:</p>
+<ul>
+<li class=""><code>0</code>: proceed along the success path.</li>
+<li class=""><code>-1</code>: route to error handling, for example a <strong>Create Admin Error</strong> activity using <code>errormsg</code> for the failure detail.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="notes">Notes<a href="https://pradeepkg.github.io/RSA/basics/provcmd-response-handling/#notes" class="hash-link" aria-label="Direct link to Notes" title="Direct link to Notes" translate="no">​</a></h2>
+<ul>
+<li class="">The <strong>Wait for Result</strong> option requires RSA Identity Governance &amp; Lifecycle 6.9.1 P06 or later. Confirm behavior against the release notes for your specific version before relying on it.</li>
+<li class="">Without <strong>Wait for Result</strong> enabled, the status variables are not populated and only the node's own execution status is available.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="references">References<a href="https://pradeepkg.github.io/RSA/basics/provcmd-response-handling/#references" class="hash-link" aria-label="Direct link to References" title="Direct link to References" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://community.rsa.com/s/article/Provisioning-node-CommandStatusCode-and-CommandStatusMessage-in-RSA-Identity-Governance-Lifecycle" target="_blank" rel="noopener noreferrer" class="">Provisioning node CommandStatusCode and CommandStatusMessage in RSA Identity Governance &amp; Lifecycle</a> (RSA Knowledge Base article 000065579)</li>
+</ul>]]></content>
+        <author>
+            <name>Pradeep Kadambar</name>
+            <uri>https://www.linkedin.com/in/pradeepkg/</uri>
+        </author>
+        <category label="Workflow" term="Workflow"/>
+        <category label="Provisioning" term="Provisioning"/>
+        <category label="G&L" term="G&L"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Active Directory Service Account for RSA G&L]]></title>
         <id>https://pradeepkg.github.io/RSA/basics/ad-service-account/</id>
         <link href="https://pradeepkg.github.io/RSA/basics/ad-service-account/"/>
         <updated>2024-11-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This blog provides a step-by-step guide to creating and assigning permissions to a service account in Active Directory, with a focus on integrating RSA Governance & Lifecycle (RSA G&L). It outlines the process to ensure the service account has the necessary permissions to securely read and write data into AD.]]></summary>
-        <content type="html"><![CDATA[<p>This blog provides a step-by-step guide to creating and assigning permissions to a service account in Active Directory, with a focus on integrating <em>RSA Governance &amp; Lifecycle (RSA G&amp;L)</em>. It outlines the process to ensure the service account has the necessary permissions to securely read and write data into AD.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="create-the-service-account">Create the Service Account<a href="https://pradeepkg.github.io/RSA/basics/ad-service-account/#create-the-service-account" class="hash-link" aria-label="Direct link to Create the Service Account" title="Direct link to Create the Service Account" translate="no">​</a></h3>
+        <summary type="html"><![CDATA[RSA Governance and Lifecycle (G&L) connects to Active Directory using a dedicated service account. G&L authenticates with a username and password (LDAP simple bind), so the account must be a standard AD user account, not a group-managed service account (gMSA).]]></summary>
+        <content type="html"><![CDATA[<p>RSA Governance and Lifecycle (G&amp;L) connects to Active Directory using a dedicated service account. G&amp;L authenticates with a username and password (LDAP simple bind), so the account must be a standard AD user account, not a group-managed service account (gMSA).</p>
+<p><strong>Before you start:</strong> Decide what G&amp;L needs to do in Active Directory.</p>
+<table><thead><tr><th>If G&amp;L needs to...</th><th>Use this scenario</th></tr></thead><tbody><tr><td>Read user data for collection only</td><td><a href="https://pradeepkg.github.io/RSA/basics/ad-service-account/#scenario-1-read-only-service-account" class="">Scenario 1: Read-Only</a></td></tr><tr><td>Create, update, or delete users and manage group membership</td><td><a href="https://pradeepkg.github.io/RSA/basics/ad-service-account/#scenario-2-readwrite-service-account" class="">Scenario 2: Read/Write</a></td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-1-create-the-service-account">Step 1: Create the Service Account<a href="https://pradeepkg.github.io/RSA/basics/ad-service-account/#step-1-create-the-service-account" class="hash-link" aria-label="Direct link to Step 1: Create the Service Account" title="Direct link to Step 1: Create the Service Account" translate="no">​</a></h2>
+<p>This step is the same for both scenarios. Create the account first, then follow the scenario that applies to your deployment.</p>
+<p>Active Directory Users and Computers (ADUC) is the standard tool for managing users in Active Directory. Open it from <strong>Start &gt; Administrative Tools &gt; Active Directory Users and Computers</strong>, or by running <code>dsa.msc</code>.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Create service accounts in a dedicated Organizational Unit (OU), which is a folder-like container in Active Directory, to keep them separate from regular user accounts. For example: <code>OU=ServiceAccounts,DC=example,DC=com</code>.</p></div></div>
 <ol>
-<li class="">Open <strong>Active Directory Users and Computers (ADUC)</strong>.</li>
-<li class="">Navigate to the Organizational Unit (OU) where you want to create the service account.</li>
-<li class="">Right-click on the OU and select <strong>New &gt; User</strong>.</li>
-<li class="">Fill in the following details:<!-- -->
+<li class="">
+<p>Open <strong>Active Directory Users and Computers</strong>.</p>
+</li>
+<li class="">
+<p>In the left panel, expand your domain and navigate to the OU where you want to create the account.</p>
+</li>
+<li class="">
+<p>Right-click the OU and select <strong>New &gt; User</strong>.</p>
+</li>
+<li class="">
+<p>Fill in the following fields:</p>
+<table><thead><tr><th>Field</th><th>Value</th></tr></thead><tbody><tr><td><strong>First Name / Last Name</strong></td><td>A name that identifies the service, for example <code>RSA GL</code></td></tr><tr><td><strong>User Logon Name</strong></td><td>Follow your organization's naming convention, for example <code>svc_rsa_gl</code></td></tr></tbody></table>
+</li>
+<li class="">
+<p>Click <strong>Next</strong>.</p>
+</li>
+<li class="">
+<p>Set a strong password and apply these settings:</p>
 <ul>
-<li class=""><strong>First Name</strong>: Enter a name for the service account (e.g., "Service").</li>
-<li class=""><strong>Last Name</strong>: Enter a last name for the service account (e.g., "Account").</li>
-<li class=""><strong>User Logon Name</strong>: Specify a unique logon name (e.g., <code>svc_account</code>).</li>
+<li class="">Check <strong>Password never expires</strong></li>
+<li class="">Uncheck <strong>User must change password at next logon</strong></li>
 </ul>
 </li>
-<li class="">Click <strong>Next</strong>.</li>
-<li class="">Set a strong password for the service account and configure the following options as needed:<!-- -->
-<ul>
-<li class="">Check <strong>Password never expires</strong> if required for long-term use.</li>
-<li class="">Uncheck <strong>User must change password at next logon</strong>.</li>
-</ul>
+<li class="">
+<p>Click <strong>Next</strong>, then <strong>Finish</strong>.</p>
 </li>
-<li class="">Click <strong>Next</strong>, then click <strong>Finish</strong> to create the service account.</li>
+<li class="">
+<p>Right-click the new account, select <strong>Properties</strong>, go to the <strong>General</strong> tab, and add a <strong>Description</strong> such as <code>RSA G&amp;L service account - owned by IAM team</code>.</p>
+</li>
 </ol>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="grant-permissions">Grant Permissions<a href="https://pradeepkg.github.io/RSA/basics/ad-service-account/#grant-permissions" class="hash-link" aria-label="Direct link to Grant Permissions" title="Direct link to Grant Permissions" translate="no">​</a></h3>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="grant-readwrite-permissions-on-base-dn">Grant Read/Write Permissions on Base DN<a href="https://pradeepkg.github.io/RSA/basics/ad-service-account/#grant-readwrite-permissions-on-base-dn" class="hash-link" aria-label="Direct link to Grant Read/Write Permissions on Base DN" title="Direct link to Grant Read/Write Permissions on Base DN" translate="no">​</a></h4>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="scenario-1-read-only-service-account">Scenario 1: Read-Only Service Account<a href="https://pradeepkg.github.io/RSA/basics/ad-service-account/#scenario-1-read-only-service-account" class="hash-link" aria-label="Direct link to Scenario 1: Read-Only Service Account" title="Direct link to Scenario 1: Read-Only Service Account" translate="no">​</a></h2>
+<p>Use this scenario when RSA G&amp;L only needs to read user data from Active Directory, for example to run collectors that pull account information into G&amp;L without making any changes.</p>
+<p>You can grant the required permissions in two ways:</p>
+<ul>
+<li class=""><strong>Option A: Delegation of Control Wizard.</strong> A built-in wizard with a simpler interface. Recommended if you are not familiar with advanced security settings.</li>
+<li class=""><strong>Option B: Advanced Security.</strong> Manual permission entries that give you precise control over what the account can access.</li>
+</ul>
+<p>Both options produce the same result for a read-only account. Use whichever you are more comfortable with.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="option-a-delegation-of-control-wizard">Option A: Delegation of Control Wizard<a href="https://pradeepkg.github.io/RSA/basics/ad-service-account/#option-a-delegation-of-control-wizard" class="hash-link" aria-label="Direct link to Option A: Delegation of Control Wizard" title="Direct link to Option A: Delegation of Control Wizard" translate="no">​</a></h3>
 <ol>
-<li class="">Open <strong>Active Directory Users and Computers (ADUC)</strong>.</li>
-<li class="">Navigate to the <strong>OU</strong> or domain where you want to assign permissions (e.g., <code>dc=example,dc=com</code> or an OU like <code>Users</code>).</li>
-<li class="">Right-click on the target OU or domain and select <strong>Properties</strong>.<!-- -->
-<ul>
-<li class="">If the <strong>Security</strong> tab is not visible, enable it by clicking <strong>View &gt; Advanced Features</strong> in ADUC.</li>
-</ul>
+<li class="">In Active Directory Users and Computers, right-click the <strong>domain root</strong> or the <strong>target OU</strong> where user accounts are stored and select <strong>Delegate Control</strong>.</li>
+<li class="">Click <strong>Next</strong>.</li>
+<li class="">Click <strong>Add</strong>, search for and select the service account (<code>svc_rsa_gl</code>), and click <strong>OK</strong>.</li>
+<li class="">Click <strong>Next</strong>.</li>
+<li class="">Select <strong>Read all user information</strong> from the task list.</li>
+<li class="">Click <strong>Next</strong>, then <strong>Finish</strong>.</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="option-b-advanced-security">Option B: Advanced Security<a href="https://pradeepkg.github.io/RSA/basics/ad-service-account/#option-b-advanced-security" class="hash-link" aria-label="Direct link to Option B: Advanced Security" title="Direct link to Option B: Advanced Security" translate="no">​</a></h3>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>The <strong>Security</strong> tab is not shown in ADUC by default. To enable it, click <strong>View &gt; Advanced Features</strong> in the ADUC menu bar before proceeding.</p></div></div>
+<ol>
+<li class="">In Active Directory Users and Computers, right-click the <strong>domain root</strong> or the <strong>target OU</strong> and select <strong>Properties</strong>.</li>
+<li class="">Go to the <strong>Security</strong> tab and click <strong>Advanced</strong>.</li>
+<li class="">In the Advanced Security Settings window, click <strong>Add</strong>.</li>
+<li class="">Click <strong>Select a principal</strong>, type the service account name (<code>svc_rsa_gl</code>), and click <strong>OK</strong>.</li>
+<li class="">In the permission entry, set <strong>Applies to</strong> to <strong>Descendant User objects</strong> and check <strong>Read all properties</strong>.</li>
+<li class="">Click <strong>OK</strong> to save.</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="scenario-2-readwrite-service-account">Scenario 2: Read/Write Service Account<a href="https://pradeepkg.github.io/RSA/basics/ad-service-account/#scenario-2-readwrite-service-account" class="hash-link" aria-label="Direct link to Scenario 2: Read/Write Service Account" title="Direct link to Scenario 2: Read/Write Service Account" translate="no">​</a></h2>
+<p>Use this scenario when RSA G&amp;L needs to provision accounts in Active Directory, for example to create users, update attributes, disable or delete accounts, or manage group membership.</p>
+<p>For write operations, use Advanced Security. The Delegation of Control Wizard does not offer enough granularity to restrict write permissions to specific attributes.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>The <strong>Security</strong> tab is not shown in ADUC by default. To enable it, click <strong>View &gt; Advanced Features</strong> in the ADUC menu bar before proceeding.</p></div></div>
+<ol>
+<li class="">
+<p>In Active Directory Users and Computers, right-click the <strong>domain root</strong> or the <strong>target OU</strong> and select <strong>Properties</strong>.</p>
 </li>
-<li class="">Go to the <strong>Security</strong> tab.</li>
-<li class="">Click <strong>Add</strong>, enter the name of your service account, and click <strong>OK</strong>.</li>
-<li class="">In the "Permissions" section:<!-- -->
-<ul>
-<li class="">Check <strong>Read</strong> and <strong>Write</strong> permissions for objects you want the service account to manage.</li>
-<li class="">For more granular control, click <strong>Advanced</strong>:<!-- -->
-<ul>
-<li class="">Select your service account from the list and click <strong>Edit</strong>.</li>
-<li class="">Specify permissions for specific object types (e.g., users, groups):<!-- -->
-<ul>
-<li class="">Allow: <code>Read all properties</code>, <code>Write all properties</code>.</li>
-<li class="">Allow: <code>Create user objects</code>, <code>Delete user objects</code>.</li>
-<li class="">Allow: <code>Add/remove members from groups</code>.</li>
-</ul>
+<li class="">
+<p>Go to the <strong>Security</strong> tab and click <strong>Advanced</strong>.</p>
 </li>
-</ul>
+<li class="">
+<p>In the Advanced Security Settings window, click <strong>Add</strong> for each of the following permission entries.</p>
+<p><strong>Entry 1: Read access across the scope</strong></p>
+<table><thead><tr><th>Setting</th><th>Value</th></tr></thead><tbody><tr><td>Principal</td><td><code>svc_rsa_gl</code></td></tr><tr><td>Applies to</td><td>This object and all descendant objects</td></tr><tr><td>Permissions</td><td><strong>Read all properties</strong></td></tr></tbody></table>
+<p>Click <strong>OK</strong>, then click <strong>Add</strong> again for the next entry.</p>
+<p><strong>Entry 2: Create, update, and delete user accounts</strong></p>
+<table><thead><tr><th>Setting</th><th>Value</th></tr></thead><tbody><tr><td>Principal</td><td><code>svc_rsa_gl</code></td></tr><tr><td>Applies to</td><td>Descendant User objects</td></tr><tr><td>Permissions</td><td><strong>Read all properties</strong>, <strong>Write all properties</strong>, <strong>Create User objects</strong>, <strong>Delete User objects</strong></td></tr></tbody></table>
+<p>Click <strong>OK</strong>, then click <strong>Add</strong> again for the next entry.</p>
+<p><strong>Entry 3: Manage group membership</strong></p>
+<table><thead><tr><th>Setting</th><th>Value</th></tr></thead><tbody><tr><td>Principal</td><td><code>svc_rsa_gl</code></td></tr><tr><td>Applies to</td><td>Descendant Group objects</td></tr><tr><td>Permissions</td><td><strong>Read all properties</strong>, <strong>Write Members</strong></td></tr></tbody></table>
+<p>Click <strong>OK</strong>.</p>
 </li>
-</ul>
+<li class="">
+<p>Click <strong>OK</strong> to close the Advanced Security Settings window, then click <strong>OK</strong> to close Properties.</p>
 </li>
 </ol>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="delegate-control-alternative-method">Delegate Control (Alternative Method)<a href="https://pradeepkg.github.io/RSA/basics/ad-service-account/#delegate-control-alternative-method" class="hash-link" aria-label="Direct link to Delegate Control (Alternative Method)" title="Direct link to Delegate Control (Alternative Method)" translate="no">​</a></h4>
-<ol>
-<li class="">Right-click on the OU or domain where you want to delegate control.</li>
-<li class="">Select <strong>Delegate Control</strong> from the context menu.</li>
-<li class="">In the Delegation of Control Wizard:<!-- -->
-<ul>
-<li class="">Click <strong>Next</strong>, then add your service account.</li>
-<li class="">Choose tasks like:<!-- -->
-<ul>
-<li class="">Create, delete, and manage user accounts.</li>
-<li class="">Modify membership of a group.</li>
-<li class="">Read all user information.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="">Complete the wizard to assign delegated permissions.</li>
-</ol>
-<hr>]]></content>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p><strong>Write Members</strong> controls the ability to add or remove users from a group. It writes to the <code>member</code> attribute on Group objects. This is more restrictive than granting full write access to all group properties.</p></div></div>]]></content>
         <author>
             <name>Pradeep Kadambar</name>
             <uri>https://www.linkedin.com/in/pradeepkg/</uri>
@@ -99,7 +169,7 @@
         <updated>2024-10-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[In this blog, we will explore the process of attribute synchronization using RSA Governance & Lifecycle (RSA G&L), focusing on how it ensures consistency between user identity data and account data across various downstream systems. By automating the synchronization of attributes such as roles, email addresses, and group memberships, RSA G&L simplifies identity management, reduces errors, and ensures that all connected systems maintain accurate and up-to-date information.]]></summary>
         <content type="html"><![CDATA[<p>In this blog, we will explore the process of attribute synchronization using <em>RSA Governance &amp; Lifecycle (RSA G&amp;L)</em>, focusing on how it ensures consistency between user identity data and account data across various downstream systems. By automating the synchronization of attributes such as roles, email addresses, and group memberships, RSA G&amp;L simplifies identity management, reduces errors, and ensures that all connected systems maintain accurate and up-to-date information.</p>
-<img src="https://pradeepkg.github.io/img/attribute-sync/attribute-sync.svg" alt="Attribute Synchronization Diagram">
+<div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/img/attribute-sync/attribute-sync.svg" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0 auto;display:block"></div></div>
 <p>This process is initiated when changes in user attribute values are detected after identity data collection and unification. When such changes occur, the system generates a change request to update the specified target account attributes, which are used to access business sources like applications and directories. Attribute synchronization process can target one or more downstream applications.</p>
 <p><em>e.g. When a user's email attribute in an HR system is linked to the corresponding mail attribute in an Active Directory account, a mapping can be established to ensure that any updates to the user's email are automatically reflected in the Active Directory account. This process requires defining both the source and target attributes for each business source and determining the transformation method needed to update the target attribute accurately.</em></p>
 <p>When a change is detected, G&amp;L will generate a change request with change items for each account mapped to the user with the change and for each business source.</p>
@@ -109,7 +179,7 @@
 <li class="">Attribute synchronization is applicable only to accounts held by individual users and does not extend to shared accounts</li>
 </ul></div></div>
 <p>After understanding how attribute synchronization works, let's examine the high-level steps to configure it in your Governance and Lifecycle (G&amp;L) environment.</p>
-<img src="https://pradeepkg.github.io/img/attribute-sync/attribute-sync-config.svg" alt="Attribute Synchronization Configuration Diagram">
+<div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/img/attribute-sync/attribute-sync-config.svg" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0 auto;display:block"></div></div>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="configuration">Configuration<a href="https://pradeepkg.github.io/RSA/basics/attribute-sync/#configuration" class="hash-link" aria-label="Direct link to Configuration" title="Direct link to Configuration" translate="no">​</a></h2>
 <ol>
 <li class="">Go to <strong>Admin &gt; System</strong> and click on <strong>Settings</strong> tab. Click <em><strong>Edit</strong></em>.<br><img decoding="async" loading="lazy" alt="img" src="https://pradeepkg.github.io/RSA/assets/images/enable-attribute-sync-b7893e7e6ce07236c2fa7c6caf109f05.png" width="308" height="265" class="img_ev3q"></li>
@@ -136,32 +206,31 @@
         <category label="Synchronization" term="Synchronization"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Adding Custom JDBC Driver]]></title>
+        <title type="html"><![CDATA[Adding a Custom JDBC Driver]]></title>
         <id>https://pradeepkg.github.io/RSA/basics/custom-jdbc/</id>
         <link href="https://pradeepkg.github.io/RSA/basics/custom-jdbc/"/>
         <updated>2024-05-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this blog, we'll explore the process of adding support for additional database drivers in Governance and Lifecycle (G&L) version 8.0 and above. By default, G&L is shipped only with drivers for Oracle and Microsoft SQL databases.]]></summary>
-        <content type="html"><![CDATA[<p>In this blog, we'll explore the process of adding support for additional database drivers in Governance and Lifecycle (G&amp;L) version 8.0 and above. By default, G&amp;L is shipped only with drivers for Oracle and Microsoft SQL databases.</p>
-<p>Starting with G&amp;L 8.0, all the individual JDBC connectors have been consolidated into a single generic database connector. This generic connector natively supports the following databases:</p>
+        <summary type="html"><![CDATA[RSA Governance and Lifecycle (G&L) 8.0 and later uses a single generic database connector that replaces the individual per-database connectors from earlier versions. The generic connector supports the following databases:]]></summary>
+        <content type="html"><![CDATA[<p>RSA Governance and Lifecycle (G&amp;L) 8.0 and later uses a single generic database connector that replaces the individual per-database connectors from earlier versions. The generic connector supports the following databases:</p>
 <ul>
 <li class="">DB2</li>
 <li class="">Oracle</li>
 <li class="">Sybase</li>
-<li class="">SQLServer</li>
+<li class="">SQL Server</li>
 <li class="">jTDS</li>
 <li class="">MySQL</li>
-<li class="">ODBC compliant databases</li>
+<li class="">ODBC-compliant databases</li>
 </ul>
-<p><strong>Steps</strong></p>
+<p>G&amp;L ships with JDBC driver JARs for Oracle and Microsoft SQL Server only. For all other databases in the list above, you must upload the driver JAR to the Generic Database connector template before the connector can establish a connection.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>If an existing connector fails <strong>Test Connector Settings</strong> with a driver class load error, the driver JAR is missing. Follow the steps below to upload it.</p><p><img decoding="async" loading="lazy" alt="img" src="https://pradeepkg.github.io/RSA/assets/images/1-3c9ad5bddceaf9d343a802f743c22b4e.png" width="994" height="243" class="img_ev3q"></p></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="steps">Steps<a href="https://pradeepkg.github.io/RSA/basics/custom-jdbc/#steps" class="hash-link" aria-label="Direct link to Steps" title="Direct link to Steps" translate="no">​</a></h2>
 <ol>
-<li class="">Login to G&amp;L console as system administrator.</li>
-<li class="">If you are creating a new connector proceed to step 4.</li>
-<li class="">For existing connector, click <strong>Test Connector Settings</strong> which should throw a driver class load error.<br><br><img decoding="async" loading="lazy" alt="img" src="https://pradeepkg.github.io/RSA/assets/images/1-3c9ad5bddceaf9d343a802f743c22b4e.png" width="994" height="243" class="img_ev3q"></li>
-<li class="">Go to <strong>AFX &gt; Connector Templates</strong> and click on <em><strong>Generic Database</strong></em>.<br><br><img decoding="async" loading="lazy" alt="img" src="https://pradeepkg.github.io/RSA/assets/images/2-fbba597ec44935121fbd229e4e27e04a.png" width="773" height="394" class="img_ev3q"></li>
-<li class="">Under <strong>File Content</strong> tab, click on <strong>Upload Jar</strong>.<br><br><img decoding="async" loading="lazy" alt="img" src="https://pradeepkg.github.io/RSA/assets/images/3-6715253b841bf4588f1f5e6d5bf8d632.png" width="453" height="455" class="img_ev3q"></li>
-<li class="">Select the JDBC driver jar file and click <strong>OK</strong>.</li>
-<li class="">Go to the connector and edit the driver class and connector string as needed.<br><img decoding="async" loading="lazy" alt="img" src="https://pradeepkg.github.io/RSA/assets/images/4-720c35c24fb8df0fa22567548254e611.png" width="661" height="240" class="img_ev3q"></li>
-<li class="">Click <em><strong>Test Connector Settings</strong></em>.</li>
+<li class="">Log in to the G&amp;L console as <strong>System Administrator</strong>.</li>
+<li class="">Go to <strong>AFX &gt; Connector Templates</strong> and open <strong>Generic Database</strong>.<br><br><img decoding="async" loading="lazy" alt="img" src="https://pradeepkg.github.io/RSA/assets/images/2-fbba597ec44935121fbd229e4e27e04a.png" width="773" height="394" class="img_ev3q"></li>
+<li class="">Click the <strong>File Content</strong> tab and click <strong>Upload Jar</strong>.<br><br><img decoding="async" loading="lazy" alt="img" src="https://pradeepkg.github.io/RSA/assets/images/3-6715253b841bf4588f1f5e6d5bf8d632.png" width="453" height="455" class="img_ev3q"></li>
+<li class="">Select the JDBC driver JAR file and click <strong>OK</strong>.</li>
+<li class="">Open the connector and update the <strong>Driver Class</strong> and <strong>Connection String</strong> for your database.<br><br><img decoding="async" loading="lazy" alt="img" src="https://pradeepkg.github.io/RSA/assets/images/4-720c35c24fb8df0fa22567548254e611.png" width="661" height="240" class="img_ev3q"></li>
+<li class="">Click <strong>Test Connector Settings</strong> to verify the connection.</li>
 </ol>]]></content>
         <author>
             <name>Pradeep Kadambar</name>
