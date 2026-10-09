@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdocku=globalThis.webpackChunkdocku||[]).push([[8430],{50747(e){e.exports=JSON.parse('{"tags":[{"label":"Deployment","permalink":"/RSA/deployment/tags/deployment","count":1},{"label":"Kubernetes","permalink":"/RSA/deployment/tags/kubernetes","count":1}]}')}}]);
