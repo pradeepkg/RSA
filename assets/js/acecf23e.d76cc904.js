@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkdocku=globalThis.webpackChunkdocku||[]).push([[1903],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/RSA/blog","blogTitle":"SaaS & System Collectors","authorsListPath":"/RSA/blog/authors"}')}}]);

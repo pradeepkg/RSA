@@ -4,10 +4,299 @@
         <title>RSA G&amp;L Developer Portal Blog</title>
         <link>https://pradeepkg.github.io/RSA/pam/</link>
         <description>RSA G&amp;L Developer Portal Blog</description>
-        <lastBuildDate>Wed, 01 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Oct 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Idira Privilege Cloud]]></title>
+            <link>https://pradeepkg.github.io/RSA/pam/idira/</link>
+            <guid>https://pradeepkg.github.io/RSA/pam/idira/</guid>
+            <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Idira Privilege Cloud (Palo Alto Networks, formerly CyberArk Privilege Cloud) is an enterprise privileged access management SaaS platform. It secures credentials, controls access to privileged accounts, and audits access across hybrid and cloud infrastructures.Versions: 8.0.0 P10]]></description>
+            <content:encoded><![CDATA[<table><tbody><tr><td width="180" class="image-cell"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFVGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSfvu78nIGlkPSdXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQnPz4KPHg6eG1wbWV0YSB4bWxuczp4PSdhZG9iZTpuczptZXRhLyc+CjxyZGY6UkRGIHhtbG5zOnJkZj0naHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyc+CgogPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9JycKICB4bWxuczpBdHRyaWI9J2h0dHA6Ly9ucy5hdHRyaWJ1dGlvbi5jb20vYWRzLzEuMC8nPgogIDxBdHRyaWI6QWRzPgogICA8cmRmOlNlcT4KICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0nUmVzb3VyY2UnPgogICAgIDxBdHRyaWI6Q3JlYXRlZD4yMDI2LTA5LTMwPC9BdHRyaWI6Q3JlYXRlZD4KICAgICA8QXR0cmliOkRhdGE+eyZxdW90O2RvYyZxdW90OzomcXVvdDtEQUdWRXRTZTlJayZxdW90OywmcXVvdDt1c2VyJnF1b3Q7OiZxdW90O1VBREo3aW5tamlJJnF1b3Q7LCZxdW90O2JyYW5kJnF1b3Q7OiZxdW90O1BSRUtTSEEgSkFJTiYjMzk7cyBDbGFzcyZxdW90O308L0F0dHJpYjpEYXRhPgogICAgIDxBdHRyaWI6RXh0SWQ+OGUwYzkzMDQtZjU4Zi00MGExLWI0YTctYWVkZDdiNTI5MWVmPC9BdHRyaWI6RXh0SWQ+CiAgICAgPEF0dHJpYjpGYklkPjUyNTI2NTkxNDE3OTU4MDwvQXR0cmliOkZiSWQ+CiAgICAgPEF0dHJpYjpUb3VjaFR5cGU+MjwvQXR0cmliOlRvdWNoVHlwZT4KICAgIDwvcmRmOmxpPgogICA8L3JkZjpTZXE+CiAgPC9BdHRyaWI6QWRzPgogPC9yZGY6RGVzY3JpcHRpb24+CgogPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9JycKICB4bWxuczpkYz0naHR0cDovL3B1cmwub3JnL2Rj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" width="180" height="180">Idira Privilege Cloud (Palo Alto Networks, formerly CyberArk Privilege Cloud) is an enterprise privileged access management SaaS platform. It secures credentials, controls access to privileged accounts, and audits access across hybrid and cloud infrastructures.<br><br>Versions: <code>8.0.0 P10</code></td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introduction">Introduction<a href="https://pradeepkg.github.io/RSA/pam/idira/#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction" translate="no">​</a></h2>
+<p>This plugin integrates RSA Governance &amp; Lifecycle (G&amp;L) with Idira Privilege Cloud (Palo Alto Networks Idira, formerly CyberArk Privilege Cloud). It retrieves managed credentials for collectors and connectors using Idira Identity OAuth 2.0 client credentials and the Privilege Cloud PVWA REST API.</p>
+<p>Credentials are not cached; each collection or connector execution fetches the current secret directly from Privilege Cloud, ensuring that credential rotation schedules are respected automatically without requiring manual updates in RSA G&amp;L.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="prerequisites">Prerequisites<a href="https://pradeepkg.github.io/RSA/pam/idira/#prerequisites" class="hash-link" aria-label="Direct link to Prerequisites" title="Direct link to Prerequisites" translate="no">​</a></h2>
+<p>Ensure you have the following before configuring the integration:</p>
+<ul>
+<li class="">Administrative access to Idira Identity Administration and Privilege Cloud Safe management.</li>
+<li class="">An active Idira Privilege Cloud tenant (qualified against version 15.0 or later).</li>
+<li class="">RSA Governance &amp; Lifecycle 8.0.0 Patch 10 or later.</li>
+<li class="">Outbound HTTPS (TCP port 443) network connectivity from the RSA G&amp;L server and any remote agents to both Idira Identity (<code>https://&lt;tenant-id&gt;.id.cyberark.cloud</code>) and Privilege Cloud (<code>https://&lt;subdomain&gt;.privilegecloud.cyberark.cloud</code>).</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="idira-side-setup">Idira Side Setup<a href="https://pradeepkg.github.io/RSA/pam/idira/#idira-side-setup" class="hash-link" aria-label="Direct link to Idira Side Setup" title="Direct link to Idira Side Setup" translate="no">​</a></h2>
+<p>Configure Idira Privilege Cloud for OAuth-based API access by RSA G&amp;L using least-privilege permissions.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>This section is provided for reference. Work with your Idira administrator to ensure all configurations comply with enterprise security policies.</p></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">Manage space</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">├── Inventory → Identities → Users     (Step 2: Service User)</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">├── Inventory → Identities → Roles     (Step 3: Role Membership)</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">└── Policies  → Safes                  (Step 4: Dedicated Safe)</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">Privilege Cloud space</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">└── Accounts → Accounts &amp; Requests → Accounts View (Step 5: Target Credential)</span><br></div></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-1-identify-tenant-urls-and-login-suffix">Step 1: Identify Tenant URLs and Login Suffix<a href="https://pradeepkg.github.io/RSA/pam/idira/#step-1-identify-tenant-urls-and-login-suffix" class="hash-link" aria-label="Direct link to Step 1: Identify Tenant URLs and Login Suffix" title="Direct link to Step 1: Identify Tenant URLs and Login Suffix" translate="no">​</a></h3>
+<p>The plugin requires two tenant endpoints:</p>
+<table><thead><tr><th>G&amp;L Configuration Field</th><th>Description</th><th>Format Example</th></tr></thead><tbody><tr><td><strong>Identity Tenant URL</strong></td><td>Idira Identity OAuth 2.0 token endpoint host</td><td><code>https://&lt;tenant-id&gt;.id.cyberark.cloud</code></td></tr><tr><td><strong>Privilege Cloud URL</strong></td><td>Privilege Cloud PVWA REST API host</td><td><code>https://&lt;subdomain&gt;.privilegecloud.cyberark.cloud</code></td></tr></tbody></table>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Discovering Tenant URLs</div><div class="admonitionContent_BuS1"><p>Both URLs can be determined using Idira platform discovery:</p><div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">curl -s https://platform-discovery.cyberark.cloud/api/v2/services/subdomain/&lt;subdomain&gt;</span><br></div></code></pre></div></div><p>Extract <code>identity_administration.api</code> for the <strong>Identity Tenant URL</strong> and <code>pcloud.api</code> (without a trailing slash) for the <strong>Privilege Cloud URL</strong>.</p></div></div>
+<p>Note your <strong>login suffix</strong> (for example, <code>cyberark.cloud.12345</code>), visible under your username in the profile menu. The service user uses this same suffix.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-2-create-the-service-user">Step 2: Create the Service User<a href="https://pradeepkg.github.io/RSA/pam/idira/#step-2-create-the-service-user" class="hash-link" aria-label="Direct link to Step 2: Create the Service User" title="Direct link to Step 2: Create the Service User" translate="no">​</a></h3>
+<ol>
+<li class="">Navigate to <strong>Manage → Inventory → Identities → Users</strong> and click <strong>Add User</strong>.<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/idira-02-users-list-c698e4689f344cdeb85e570ee9c4ad24.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+<li class="">Complete the <strong>Account</strong> details:<!-- -->
+<ul>
+<li class=""><strong>Login name</strong>: Enter a dedicated name (for example, <code>svc_gl</code> or <code>svc_rsa_gl_pam</code>).</li>
+<li class=""><strong>Suffix</strong>: Ensure your tenant login suffix is selected. The full <code>login@suffix</code> becomes the <strong>Client ID</strong>.</li>
+<li class=""><strong>Email address</strong>: Enter a monitored distribution list or team mailbox.</li>
+<li class=""><strong>Display name</strong>: For example, <code>RSA G&amp;L Service Account</code>.<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/idira-03-add-user-form-1-57cbfe5cfb8ac523ef7d3e2d6d926431.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+</ul>
+</li>
+<li class="">Set <strong>Password Type</strong> to <strong>Generated</strong>. Click <strong>Copy</strong> and store this generated password in your secure vault. This value becomes the <strong>Client Secret</strong>.<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="data:image/png;base64,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8zG5tSHjMTm1IZdjsrThFmh3Tm3Ickwubch8TG5tyHhMTm3IfExObcjlmCxtyKndiKV8h1o+jTz4V2ruVr+bf/mrabbnJt/n6KYHf7QLsLos2BbpAvww3I0S6YasSXTHJHVDnm3S4mEck1MbMh6TWxsyH5NLG3I5JlsbboF259SGzMfk1IaMx+TWhszH5NKGLMfk1IZcjsnShpzajTjKd6jl08iCf6Hu/9cef7Z/j/5pUnR77vJ9jm5+8AMA4Nvy/n/q2xOmprx+Kxhe8Cee2hfYUBVZ/jcKdm7sHEVfHw2CHwBQNL+t+0YTp0Znx99OarRgux/67/XpuUU1+m7KPrmzc2PnKPr6aBD8AICiWb6uVT+Zuz7ldXjs3Ng5ir4+GgQ/AKBofvrk7/Sr9W0pr8Nj58bOUfT10SD4AQBFZV3ZD5YtS3k97uyc5Lub3xD8AICisjva3/z+q1t2kl8x2Lmwc5Lvu31D8AMAim5R1T7XrU34e6Fv58LOSXRbPhD8AIBbggWd3eXGudvfvrudg0KFviH4AQC3DOvatnFtu+O1Ge22nG0s9wLYd7PvaN/VvrN990J074cR/ACAW46Fny1jsyC0B9iEH5Azlth3s+9o37XQgR8g+AEAiBGCHwCAGCH4AQCIEYIfAIAYIfgBAIgRgh8AgBgh+AEAiBGCHwCAGCH4AQCIEYIfAIAY+RZFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRFURRVgPr/YbMEhthCKEEAAAAASUVORK5CYII=" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+<li class="">Under <strong>Status</strong>, select <strong>Is OAuth confidential client</strong>. Idira automatically enables <strong>Is service user</strong> and <strong>Password never expires</strong>.<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/idira-03-add-user-form-3-1f562bec0709ffabba278700c74bf909.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+<li class="">Click <strong>Create User</strong>.</li>
+</ol>
+<p>Record the generated credentials for RSA G&amp;L:</p>
+<ul>
+<li class=""><strong>Client ID</strong>: The full login name (for example, <code>svc_gl@cyberark.cloud.12345</code>)</li>
+<li class=""><strong>Client Secret</strong>: The generated password</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-3-assign-the-privilege-cloud-users-role">Step 3: Assign the Privilege Cloud Users Role<a href="https://pradeepkg.github.io/RSA/pam/idira/#step-3-assign-the-privilege-cloud-users-role" class="hash-link" aria-label="Direct link to Step 3: Assign the Privilege Cloud Users Role" title="Direct link to Step 3: Assign the Privilege Cloud Users Role" translate="no">​</a></h3>
+<ol>
+<li class="">In the <strong>Manage</strong> space, navigate to <strong>Inventory → Identities → Roles</strong>.</li>
+<li class="">Search for <code>Privilege Cloud Users</code>.<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/idira-06-roles-list-5e7054fa75b7e964f5da1a5f402c59ce.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+<li class="">Open <strong>Privilege Cloud Users</strong>, select the <strong>Members</strong> tab, click <strong>Add</strong>, select the service user, and click <strong>Save</strong>.<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/idira-07-role-add-member-66bbc6f6635d1d98a72eaba68981e944.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+</ol>
+<div class="theme-admonition theme-admonition-caution admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Least Privilege</div><div class="admonitionContent_BuS1"><p>Do not assign the service user to <em>Privilege Cloud Administrators</em>, <em>Safe Managers</em>, or any other administrative role. The service user requires member access to <em>Privilege Cloud Users</em> only.</p></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-4-create-a-dedicated-safe-and-assign-permissions">Step 4: Create a Dedicated Safe and Assign Permissions<a href="https://pradeepkg.github.io/RSA/pam/idira/#step-4-create-a-dedicated-safe-and-assign-permissions" class="hash-link" aria-label="Direct link to Step 4: Create a Dedicated Safe and Assign Permissions" title="Direct link to Step 4: Create a Dedicated Safe and Assign Permissions" translate="no">​</a></h3>
+<p>To isolate secrets accessed by RSA G&amp;L, create a dedicated Safe.</p>
+<ol>
+<li class="">Navigate to <strong>Manage → Policies → Safes</strong> and click <strong>Create Safe</strong>.<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/idira-08-add-safe-ca5edbc48a6274c43b285268bf21f38a.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+<li class=""><strong>Define Safe Properties</strong>: Enter a Safe Name (for example, <code>RSA-GL-Integration</code>) and a description. Leave dual-control disabled.<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/idira-08-add-safe-1-c50f5dde4ecc1ab24ba10572f4ac09c3.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+<li class=""><strong>Select Safe Members</strong>: Search for and select the service user created in Step 2.<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/idira-08-add-safe-2-1795ff5916ca89606dc5f63fd910b696.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+<li class=""><strong>Set Permissions</strong>: Under <strong>Access</strong>, select <strong>List accounts</strong> and <strong>Retrieve accounts</strong>. Clear <strong>Use accounts</strong>.<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/idira-10-safe-permissions-e8141ad4a5ca8084ab5b046192fc01cc.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+<li class="">Click <strong>Create Safe</strong>.</li>
+</ol>
+<table><thead><tr><th>Permission</th><th>Required</th><th>Usage</th></tr></thead><tbody><tr><td><strong>List accounts</strong></td><td>Yes</td><td>Account lookup and connectivity validation</td></tr><tr><td><strong>Retrieve accounts</strong></td><td>Yes</td><td>Decrypting and retrieving account passwords</td></tr><tr><td><strong>Use accounts</strong></td><td>No</td><td>Interactive sessions (not required by RSA G&amp;L)</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-5-store-target-credentials-in-privilege-cloud">Step 5: Store Target Credentials in Privilege Cloud<a href="https://pradeepkg.github.io/RSA/pam/idira/#step-5-store-target-credentials-in-privilege-cloud" class="hash-link" aria-label="Direct link to Step 5: Store Target Credentials in Privilege Cloud" title="Direct link to Step 5: Store Target Credentials in Privilege Cloud" translate="no">​</a></h3>
+<p>Ensure the target account platform is active before adding credentials:</p>
+<ol>
+<li class="">Navigate to <strong>Manage → Policies → Account platforms</strong>. Select the platform group (for example, <strong>Cloud Service</strong>) and activate the required platform if needed.<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/idira-11-account-platforms-8f3f781a0d91fda4a5b41414c7fd0f4f.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p><p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/idira-11-platforms-activate-c3510bc30197acb3ddde487d60f0175f.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+<li class="">Switch to the <strong>Privilege Cloud</strong> space (<strong>Navigate ⋮⋮ → Privilege Cloud</strong>), go to <strong>Accounts → Accounts &amp; Requests → Accounts View</strong>, and click <strong>Add account</strong>.<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/idira-12-accounts-42d609a98f2b69127f5f13d92a05bbf3.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+<li class="">Select the <strong>System type</strong> (for example, Cloud Service), the <strong>Platform</strong>, and select the dedicated Safe (<code>RSA-GL-Integration</code>).<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/idira-12-account-1-1496ca7a451335ded57a504f20aec7d6.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p><p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/idira-12-account-2-9cab8daa7ea5968f5617fd726345566e.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p><p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/idira-12-account-3-b44941a24e9d74fd0ed230c714e04634.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+<li class="">Enter the account properties:<!-- -->
+<ul>
+<li class=""><strong>Username</strong>: The account login or application client ID.</li>
+<li class=""><strong>Address</strong>: Target host, domain, or directory ID (if applicable).</li>
+<li class=""><strong>Password</strong>: The secret or password value.</li>
+<li class=""><strong>Customize account name</strong>: Enter a unique name (for example, <code>Entra-RSA-GL-Collector</code>).<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/idira-12-account-4-5a92758395ea7f3014ce6e8f6c1c7d11.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+</ul>
+</li>
+<li class="">Click <strong>Add</strong>.</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="installation-and-configuration-in-gl">Installation and Configuration in G&amp;L<a href="https://pradeepkg.github.io/RSA/pam/idira/#installation-and-configuration-in-gl" class="hash-link" aria-label="Direct link to Installation and Configuration in G&amp;L" title="Direct link to Installation and Configuration in G&amp;L" translate="no">​</a></h2>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>Requires RSA Governance and Lifecycle 8.0.0 Patch 10 or later.</p></div></div>
+<p>Complete the <a href="https://pradeepkg.github.io/RSA/pam/idira/#idira-side-setup" class="">Idira Side Setup</a> before proceeding. You will need the <strong>Privilege Cloud URL</strong>, <strong>Identity Tenant URL</strong>, <strong>Client ID</strong>, and <strong>Client Secret</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-1-install-the-plugin">Step 1: Install the Plugin<a href="https://pradeepkg.github.io/RSA/pam/idira/#step-1-install-the-plugin" class="hash-link" aria-label="Direct link to Step 1: Install the Plugin" title="Direct link to Step 1: Install the Plugin" translate="no">​</a></h3>
+<ol>
+<li class="">Log in to the RSA G&amp;L UI as a <strong>System Administrator</strong>.</li>
+<li class="">Navigate to <strong>Admin → System → Password Vault</strong>.</li>
+<li class="">Under <strong>Vault Types</strong>, click <strong>Upload New Vault Type</strong>.<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/GL_01-0e7dcba685f5aa02ae024114d127efb5.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+<li class="">In the dialog, enter the details:<!-- -->
+<ul>
+<li class=""><strong>Vault Type Name</strong>: <code>Idira-Privilege-Cloud</code></li>
+<li class=""><strong>Description</strong>: <code>Retrieves credentials from Idira Privilege Cloud using OAuth 2.0 client credentials.</code></li>
+<li class=""><strong>JAR File</strong>: Click <strong>Choose File</strong> and select the distribution JAR (<code>idira-privilegecloud-plugin-dist-1.0-&lt;timestamp&gt;.jar</code>).<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/GL_02-48fd1ddc4d9103ec3d41555b36e1a7df.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+</ul>
+</li>
+<li class="">Click <strong>OK</strong>. <strong>Idira-Privilege-Cloud</strong> appears in the Vault Types list.<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/GL_03-bdee06a53526c96501c075137dbc904d.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+</ol>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>After uploading a new vault type, restart all remote G&amp;L agents to ensure they load the plugin.</p></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-2-configure-the-password-vault">Step 2: Configure the Password Vault<a href="https://pradeepkg.github.io/RSA/pam/idira/#step-2-configure-the-password-vault" class="hash-link" aria-label="Direct link to Step 2: Configure the Password Vault" title="Direct link to Step 2: Configure the Password Vault" translate="no">​</a></h3>
+<ol>
+<li class="">
+<p>In the <strong>Password Vault Configuration</strong> section, select <strong>Idira-Privilege-Cloud</strong> from the dropdown and click <strong>+ Create</strong>.</p><p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/GL_04-710f6efef8c3b67df94c667ba6aa0148.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p><p></p>
+</li>
+<li class="">
+<p>Complete the configuration form:</p>
+<table><thead><tr><th>Field</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><strong>Privilege Cloud URL</strong></td><td>Base URL of your Privilege Cloud PVWA instance</td><td><code>https://&lt;subdomain&gt;.privilegecloud.cyberark.cloud</code></td></tr><tr><td><strong>Identity Tenant URL</strong></td><td>Base URL of your Idira Identity Administration tenant</td><td><code>https://&lt;tenant-id&gt;.id.cyberark.cloud</code></td></tr><tr><td><strong>Client ID</strong></td><td>Service user login identifier including suffix</td><td><code>svc_gl@cyberark.cloud.12345</code></td></tr><tr><td><strong>Client Secret</strong></td><td>Service user generated secret key (masked)</td><td><code>••••••••••••••••</code></td></tr></tbody></table>
+</li>
+<li class="">
+<p>Click <strong>Test Connection</strong>. A <strong>Connection successful</strong> status confirms token retrieval and API communication.</p><p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/GL_05-8eab73b215c682115017426336a3d8e1.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p><p></p>
+</li>
+<li class="">
+<p>Click <strong>OK</strong> to save. The saved configuration displays <strong>Edit</strong> and <strong>Test Connection</strong> options.</p><p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/GL_06-8171128a8c5363a335466fb49360d57c.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p><p></p>
+</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-3-create-vault-profiles">Step 3: Create Vault Profiles<a href="https://pradeepkg.github.io/RSA/pam/idira/#step-3-create-vault-profiles" class="hash-link" aria-label="Direct link to Step 3: Create Vault Profiles" title="Direct link to Step 3: Create Vault Profiles" translate="no">​</a></h3>
+<p>A vault profile maps a specific collector or connector credential to an account stored in an Idira Safe. Create one profile per managed account.</p>
+<ol>
+<li class="">
+<p>Navigate to the <strong>Password Vault Profiles</strong> section and click <strong>+ Create Profile</strong>.</p><p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/GL_07-27fd3edeef80f6e4cce7e6c6b532716f.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p><p></p>
+</li>
+<li class="">
+<p>Fill in the profile fields:</p>
+<table><thead><tr><th>Field</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><strong>Name</strong></td><td>Display name for this profile</td><td><code>Entra RSA G&amp;L Collector</code></td></tr><tr><td><strong>Description</strong></td><td>Optional description</td><td><code>Microsoft Entra client secret</code></td></tr><tr><td><strong>Safe Name</strong></td><td>Safe where the credential is stored</td><td><code>RSA-GL-Integration</code></td></tr><tr><td><strong>Account Name</strong></td><td>Account Name or Username in Privilege Cloud</td><td><code>Entra-RSA-GL-Collector</code></td></tr></tbody></table>
+</li>
+<li class="">
+<p>Click <strong>Test Profile</strong>. A <strong>Credential retrieved successfully</strong> response confirms the account was found and its password decrypted.</p><p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/GL_07-27fd3edeef80f6e4cce7e6c6b532716f.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p><p></p>
+</li>
+<li class="">
+<p>Click <strong>OK</strong> to save. The profile appears in the list with the identifier formatted as <code>Safe Name (Account Name)</code>.</p><p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/GL_08-6ad050b54763b4bef1a36af9d5c554ec.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p><p></p>
+</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-4-use-the-profile-in-a-collector-or-connector">Step 4: Use the Profile in a Collector or Connector<a href="https://pradeepkg.github.io/RSA/pam/idira/#step-4-use-the-profile-in-a-collector-or-connector" class="hash-link" aria-label="Direct link to Step 4: Use the Profile in a Collector or Connector" title="Direct link to Step 4: Use the Profile in a Collector or Connector" translate="no">​</a></h3>
+<p>In the collector or connector configuration, keep non-sensitive parameters static and reference the vault profile for the secret:</p>
+<ol>
+<li class="">Open the collector configuration (for example, <em>Microsoft Entra ID</em>).</li>
+<li class="">Enter the static <strong>Username</strong> or Application ID.</li>
+<li class="">For <strong>Password</strong>, select <strong>Use Password Vault → Existing Profile</strong> and choose your profile (<code>Entra RSA G&amp;L Collector</code>).<p></p><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><img src="https://pradeepkg.github.io/RSA/assets/images/GL_09-45c3dace10c0b1c3285bed1abf41111c.png" style="max-width:400px;max-height:400px;width:auto;height:auto;cursor:zoom-in;margin:0;display:block"></div></div><p></p></li>
+<li class="">Click <strong>Test</strong>, then click <strong>Save</strong>.</li>
+</ol>
+<p>RSA G&amp;L retrieves the current password from Idira Privilege Cloud each time the collector or connector runs.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="known-limitations">Known Limitations<a href="https://pradeepkg.github.io/RSA/pam/idira/#known-limitations" class="hash-link" aria-label="Direct link to Known Limitations" title="Direct link to Known Limitations" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Client Credentials Only</strong>: The plugin uses the OAuth 2.0 client credentials grant for machine-to-machine authentication. User interactive authentication and authorization code grants are not supported.</li>
+<li class=""><strong>Dual-Control Safes Not Supported</strong>: Safes requiring access approval return HTTP 403. G&amp;L automated background retrieval cannot submit interactive access requests.</li>
+<li class=""><strong>No Check-in / Checkout Locking</strong>: Passwords are retrieved on demand without exclusive checkout. Do not configure one-time-password or exclusive checkout policies for credentials used by RSA G&amp;L.</li>
+<li class=""><strong>Exact Account Matching</strong>: Privilege Cloud account searches return fuzzy matches. The plugin enforces an exact match against the Account Name first, then the Username within the specified Safe.</li>
+<li class=""><strong>HTTPS Enforced</strong>: All endpoints require HTTPS. HTTP redirects are disabled to safeguard credentials.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="troubleshooting">Troubleshooting<a href="https://pradeepkg.github.io/RSA/pam/idira/#troubleshooting" class="hash-link" aria-label="Direct link to Troubleshooting" title="Direct link to Troubleshooting" translate="no">​</a></h2>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="authentication-and-token-errors-http-400">Authentication and Token Errors (HTTP 400)<a href="https://pradeepkg.github.io/RSA/pam/idira/#authentication-and-token-errors-http-400" class="hash-link" aria-label="Direct link to Authentication and Token Errors (HTTP 400)" title="Direct link to Authentication and Token Errors (HTTP 400)" translate="no">​</a></h4>
+<p><strong>Error Message:</strong></p>
+<blockquote>
+<p><code>Idira Identity token exchange failed with status: 400 (access_denied: invalid client creds or client not allowed)</code></p>
+</blockquote>
+<ul>
+<li class=""><strong>Root Cause</strong>: Invalid Client ID or Client Secret, or the service user is not configured as an OAuth confidential client.</li>
+<li class=""><strong>Resolution</strong>:<!-- -->
+<ol>
+<li class="">Verify the <strong>Client ID</strong> includes the full login suffix (for example, <code>svc_gl@cyberark.cloud.12345</code>).</li>
+<li class="">Confirm <strong>Is OAuth confidential client</strong> is selected for the service user in Idira Identity Administration.</li>
+<li class="">Reset the service user password in Idira Identity Administration with <em>Require password change at next login</em> cleared, update the secret in RSA G&amp;L, and test the connection.</li>
+</ol>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="api-authorization-and-role-membership-http-401">API Authorization and Role Membership (HTTP 401)<a href="https://pradeepkg.github.io/RSA/pam/idira/#api-authorization-and-role-membership-http-401" class="hash-link" aria-label="Direct link to API Authorization and Role Membership (HTTP 401)" title="Direct link to API Authorization and Role Membership (HTTP 401)" translate="no">​</a></h4>
+<p><strong>Error Message:</strong></p>
+<blockquote>
+<p><code>Idira Accounts API returned error status: 401</code></p>
+</blockquote>
+<ul>
+<li class=""><strong>Root Cause</strong>: The service user authenticated successfully but is not authorized to query Privilege Cloud APIs, or the Privilege Cloud URL is incorrect.</li>
+<li class=""><strong>Resolution</strong>:<!-- -->
+<ol>
+<li class="">Confirm the service user is a member of the <strong>Privilege Cloud Users</strong> role.</li>
+<li class="">Verify the <strong>Privilege Cloud URL</strong> matches <code>https://&lt;subdomain&gt;.privilegecloud.cyberark.cloud</code> without additional path elements such as <code>/PasswordVault</code>.</li>
+</ol>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="account-lookup-and-resolution">Account Lookup and Resolution<a href="https://pradeepkg.github.io/RSA/pam/idira/#account-lookup-and-resolution" class="hash-link" aria-label="Direct link to Account Lookup and Resolution" title="Direct link to Account Lookup and Resolution" translate="no">​</a></h4>
+<p><strong>Error Message:</strong></p>
+<blockquote>
+<p><code>No account was found for the provided SafeName and AccountName</code></p>
+</blockquote>
+<ul>
+<li class=""><strong>Root Cause</strong>: The Safe Name or Account Name does not match any entry in Privilege Cloud, or the service user lacks list permissions on the Safe.</li>
+<li class=""><strong>Resolution</strong>:<!-- -->
+<ol>
+<li class="">Verify the <strong>Safe Name</strong> matches the Safe in Privilege Cloud exactly (case-insensitive).</li>
+<li class="">Confirm the <strong>Account Name</strong> matches either the custom account name or the account username.</li>
+<li class="">Ensure the service user has <strong>List accounts</strong> permissions on the Safe.</li>
+</ol>
+</li>
+</ul>
+<p><strong>Error Message:</strong></p>
+<blockquote>
+<p><code>Multiple accounts found for the provided SafeName and AccountName</code></p>
+</blockquote>
+<ul>
+<li class=""><strong>Root Cause</strong>: More than one account in the Safe has the same username or account name.</li>
+<li class=""><strong>Resolution</strong>:<!-- -->
+<ol>
+<li class="">In Privilege Cloud, assign a unique custom account name (for example, <code>Entra-RSA-GL-Collector</code>).</li>
+<li class="">Update the RSA G&amp;L Vault Profile <strong>Account Name</strong> to specify that unique name.</li>
+</ol>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="password-retrieval-and-safe-permissions-http-403--404">Password Retrieval and Safe Permissions (HTTP 403 / 404)<a href="https://pradeepkg.github.io/RSA/pam/idira/#password-retrieval-and-safe-permissions-http-403--404" class="hash-link" aria-label="Direct link to Password Retrieval and Safe Permissions (HTTP 403 / 404)" title="Direct link to Password Retrieval and Safe Permissions (HTTP 403 / 404)" translate="no">​</a></h4>
+<p><strong>Error Message:</strong></p>
+<blockquote>
+<p><code>Idira denied immediate password retrieval (403)</code></p>
+</blockquote>
+<ul>
+<li class=""><strong>Root Cause</strong>: The service user lacks retrieve permissions, or the Safe has dual-control workflow active.</li>
+<li class=""><strong>Resolution</strong>:<!-- -->
+<ol>
+<li class="">Verify the service user has <strong>Retrieve accounts</strong> permission on the Safe.</li>
+<li class="">Confirm dual-control approval is disabled on the Safe.</li>
+</ol>
+</li>
+</ul>
+<p><strong>Error Message:</strong></p>
+<blockquote>
+<p><code>Idira account was not found during password retrieval (404)</code></p>
+</blockquote>
+<ul>
+<li class=""><strong>Root Cause</strong>: The account was deleted or modified in Privilege Cloud between search lookup and password retrieval.</li>
+<li class=""><strong>Resolution</strong>:<!-- -->
+<ol>
+<li class="">Confirm the account exists in Privilege Cloud.</li>
+<li class="">Retest the profile in RSA G&amp;L.</li>
+</ol>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="network-and-tls-connectivity">Network and TLS Connectivity<a href="https://pradeepkg.github.io/RSA/pam/idira/#network-and-tls-connectivity" class="hash-link" aria-label="Direct link to Network and TLS Connectivity" title="Direct link to Network and TLS Connectivity" translate="no">​</a></h4>
+<p><strong>Error Message:</strong></p>
+<blockquote>
+<p><code>Connectivity or parsing error during Idira Identity token exchange</code> or <code>Connectivity error with Idira Privilege Cloud API</code></p>
+</blockquote>
+<ul>
+<li class=""><strong>Root Cause</strong>: Network egress restrictions, firewall blocking, proxy interference, or TLS inspection preventing HTTPS communication.</li>
+<li class=""><strong>Resolution</strong>:<!-- -->
+<ol>
+<li class="">Ensure outbound HTTPS (port 443) is open from the RSA G&amp;L server and remote agents to <code>*.id.cyberark.cloud</code> and <code>*.privilegecloud.cyberark.cloud</code>.</li>
+<li class="">Ensure endpoint URLs begin with <code>https://</code>.</li>
+<li class="">Confirm intermediate TLS inspection proxies do not intercept or terminate connections without presenting trusted certificates.</li>
+</ol>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="profile-configuration-mismatch">Profile Configuration Mismatch<a href="https://pradeepkg.github.io/RSA/pam/idira/#profile-configuration-mismatch" class="hash-link" aria-label="Direct link to Profile Configuration Mismatch" title="Direct link to Profile Configuration Mismatch" translate="no">​</a></h4>
+<p><strong>Error Message:</strong></p>
+<blockquote>
+<p><code>Password vault profile is not an Idira Privilege Cloud profile</code></p>
+</blockquote>
+<ul>
+<li class=""><strong>Root Cause</strong>: The profile was created under a different vault type.</li>
+<li class=""><strong>Resolution</strong>:<!-- -->
+<ol>
+<li class="">Create a new profile under the <strong>Idira-Privilege-Cloud</strong> vault configuration.</li>
+<li class="">Assign the new profile to the target collector or connector.</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="references">References<a href="https://pradeepkg.github.io/RSA/pam/idira/#references" class="hash-link" aria-label="Direct link to References" title="Direct link to References" translate="no">​</a></h2>
+<p><strong>Idira Identity Documentation</strong></p>
+<ul>
+<li class=""><a href="https://docs.cyberark.com/identity-administration/latest/en/content/ispss/ispss-add-service-user.htm" target="_blank" rel="noopener noreferrer" class="">Add service users</a>: Creating service users with OAuth confidential client authentication.</li>
+<li class=""><a href="https://api-docs.cyberark.com/create-api-token/docs/create-api-token" target="_blank" rel="noopener noreferrer" class="">API token authentication for Idira Identity</a>: OAuth 2.0 <code>/oauth2/platformtoken</code> endpoint reference.</li>
+</ul>
+<p><strong>Idira Privilege Cloud Documentation</strong></p>
+<ul>
+<li class=""><a href="https://docs.cyberark.com/privilege-cloud-shared-services/latest/en/content/privilege%20cloud/privcloud-manage-safe-members.htm" target="_blank" rel="noopener noreferrer" class="">Manage Safe members</a>: Safe permissions and member assignment.</li>
+<li class=""><a href="https://docs.cyberark.com/privilege-cloud-shared-services/latest/en/content/privilege%20cloud/privcloud-onboard.htm" target="_blank" rel="noopener noreferrer" class="">Add accounts</a>: Creating and managing privileged accounts.</li>
+<li class=""><a href="https://docs.cyberark.com/privilege-cloud-shared-services/latest/en/content/pasimp/microsoftazureapplicationkeys.htm" target="_blank" rel="noopener noreferrer" class="">Microsoft Azure Application Keys platform</a>: Platform configuration for application secrets.</li>
+<li class=""><a href="https://docs.cyberark.com/privilege-cloud-shared-services/latest/en/content/webservices/implementing%20privileged%20account%20security%20web%20services%20.htm" target="_blank" rel="noopener noreferrer" class="">Privilege Cloud REST APIs overview</a>: PVWA REST API specifications.</li>
+<li class=""><a href="https://docs.cyberark.com/privilege-cloud-shared-services/latest/en/content/sdk/getaccounts.htm" target="_blank" rel="noopener noreferrer" class="">Get accounts API</a>: <code>GET /API/Accounts</code> search and filter parameters.</li>
+<li class=""><a href="https://docs.cyberark.com/privilege-cloud-shared-services/latest/en/content/webservices/getpasswordvaluev10.htm" target="_blank" rel="noopener noreferrer" class="">Get password value API</a>: <code>POST /API/Accounts/{id}/Password/Retrieve</code> retrieval specifications.</li>
+</ul>
+<p><strong>Industry Standards</strong></p>
+<ul>
+<li class=""><a href="https://www.rfc-editor.org/rfc/rfc6749#section-4.4" target="_blank" rel="noopener noreferrer" class="">RFC 6749 Section 4.4: Client Credentials Grant</a>: OAuth 2.0 framework specification.</li>
+</ul>]]></content:encoded>
+            <category>Idira</category>
+            <category>PAM</category>
+        </item>
         <item>
             <title><![CDATA[Keeper Enterprise]]></title>
             <link>https://pradeepkg.github.io/RSA/pam/keeper/</link>
@@ -86,7 +375,7 @@
 </li>
 <li class="">
 <p>On any machine with the KSM CLI installed, run the following to exchange the token for permanent credentials.</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain"># Install the CLI (one-time setup)</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">pip install keeper-secrets-manager-cli</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain"># Exchange the token — creates keeper.ini in your home directory</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">ksm profile init --token &lt;YOUR_ONE_TIME_TOKEN&gt;</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain"># Install the CLI (one-time setup)</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">pip install keeper-secrets-manager-cli</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain"># Exchange the token to create keeper.ini in your home directory</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">ksm profile init --token &lt;YOUR_ONE_TIME_TOKEN&gt;</span><br></div></code></pre></div></div>
 </li>
 <li class="">
 <p>Open the generated <code>keeper.ini</code> file (<code>%USERPROFILE%\keeper.ini</code> on Windows, <code>~/keeper.ini</code> on Linux/macOS).</p>
@@ -164,22 +453,46 @@
 </li>
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="troubleshooting">Troubleshooting<a href="https://pradeepkg.github.io/RSA/pam/keeper/#troubleshooting" class="hash-link" aria-label="Direct link to Troubleshooting" title="Direct link to Troubleshooting" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="connection-errors">Connection Errors<a href="https://pradeepkg.github.io/RSA/pam/keeper/#connection-errors" class="hash-link" aria-label="Direct link to Connection Errors" title="Direct link to Connection Errors" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="connection-errors">Connection Errors<a href="https://pradeepkg.github.io/RSA/pam/keeper/#connection-errors" class="hash-link" aria-label="Direct link to Connection Errors" title="Direct link to Connection Errors" translate="no">​</a></h4>
 <ul>
+<li class=""><strong>Root Cause</strong>: Hostname region mismatch, incorrect vault configuration values from <code>keeper.ini</code>, or deactivated KSM application.</li>
+<li class=""><strong>Resolution</strong>:<!-- -->
+<ol>
 <li class="">Verify that all six vault configuration fields match the values in <code>keeper.ini</code> exactly.</li>
-<li class="">Confirm the <strong>Hostname</strong> matches your Keeper region.</li>
-<li class="">Check that the KSM application is active and has not been deleted in Keeper Vault.</li>
+<li class="">Confirm the <strong>Hostname</strong> matches your Keeper region (for example, <code>keepersecurity.com</code> or <code>keepersecurity.eu</code>).</li>
+<li class="">Verify that the KSM application is active and has not been deleted in Keeper Vault.</li>
+</ol>
+</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="record-not-found">Record Not Found<a href="https://pradeepkg.github.io/RSA/pam/keeper/#record-not-found" class="hash-link" aria-label="Direct link to Record Not Found" title="Direct link to Record Not Found" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="record-not-found">Record Not Found<a href="https://pradeepkg.github.io/RSA/pam/keeper/#record-not-found" class="hash-link" aria-label="Direct link to Record Not Found" title="Direct link to Record Not Found" translate="no">​</a></h4>
 <ul>
-<li class="">Confirm the <strong>Record UID</strong> in the vault profile is correct.</li>
-<li class="">Verify the record is inside a Shared Folder that the KSM application can access.</li>
-<li class="">In Keeper Vault, go to <strong>Secrets Manager</strong> &gt; application &gt; <strong>Folders and Records</strong> and confirm the folder is listed with a record count greater than zero.</li>
+<li class=""><strong>Root Cause</strong>: Invalid Record UID in the vault profile, or the record resides outside the KSM application shared folder.</li>
+<li class=""><strong>Resolution</strong>:<!-- -->
+<ol>
+<li class="">Confirm the <strong>Record UID</strong> in the vault profile matches the 22-character UID in Keeper.</li>
+<li class="">Verify the record is inside a Shared Folder that the KSM application has permission to access.</li>
+<li class="">In Keeper Vault, navigate to <strong>Secrets Manager → Folders and Records</strong> and verify the folder is listed with a record count greater than zero.</li>
+</ol>
+</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="access-denied-errors">Access Denied Errors<a href="https://pradeepkg.github.io/RSA/pam/keeper/#access-denied-errors" class="hash-link" aria-label="Direct link to Access Denied Errors" title="Direct link to Access Denied Errors" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="access-denied-errors">Access Denied Errors<a href="https://pradeepkg.github.io/RSA/pam/keeper/#access-denied-errors" class="hash-link" aria-label="Direct link to Access Denied Errors" title="Direct link to Access Denied Errors" translate="no">​</a></h4>
 <ul>
-<li class="">Verify the KSM application has <strong>Read Only</strong> access to the shared folder.</li>
-<li class="">Confirm the shared folder contains the target record and has not been moved or deleted.</li>
+<li class=""><strong>Root Cause</strong>: Insufficient permissions on the shared folder or the target record was moved or deleted.</li>
+<li class=""><strong>Resolution</strong>:<!-- -->
+<ol>
+<li class="">Verify the KSM application has <strong>Read Only</strong> access granted to the shared folder.</li>
+<li class="">Confirm the shared folder contains the target record and has not been removed.</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="references">References<a href="https://pradeepkg.github.io/RSA/pam/keeper/#references" class="hash-link" aria-label="Direct link to References" title="Direct link to References" translate="no">​</a></h2>
+<p><strong>Keeper Security Documentation</strong></p>
+<ul>
+<li class=""><a href="https://docs.keeper.io/en/v/secrets-manager/secrets-manager/overview" target="_blank" rel="noopener noreferrer" class="">Keeper Secrets Manager Overview</a>: Architecture, zero-knowledge encryption, and access controls.</li>
+<li class=""><a href="https://docs.keeper.io/en/v/secrets-manager/secrets-manager/secrets-manager-command-line-interface" target="_blank" rel="noopener noreferrer" class="">Keeper Secrets Manager CLI</a>: Initializing profiles and exchanging one-time access tokens.</li>
+<li class=""><a href="https://docs.keeper.io/en/v/secrets-manager/secrets-manager/developer-sdk-library/java-sdk" target="_blank" rel="noopener noreferrer" class="">Keeper Secrets Manager Java SDK</a>: Record retrieval methods and caching controls.</li>
+<li class=""><a href="https://docs.keeper.io/en/v/secrets-manager/secrets-manager/overview#regional-endpoints" target="_blank" rel="noopener noreferrer" class="">Keeper Security Regions and URLs</a>: Regional API endpoints and hostnames.</li>
 </ul>]]></content:encoded>
             <category>Keeper</category>
             <category>PAM</category>
@@ -345,25 +658,47 @@
 <li class=""><strong>Double-quote characters in passwords.</strong> Double-quote characters are removed from retrieved passwords. If an account password contains double quotes, update the password in BeyondTrust to use a different special character.</li>
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="troubleshooting">Troubleshooting<a href="https://pradeepkg.github.io/RSA/pam/beyondtrust/#troubleshooting" class="hash-link" aria-label="Direct link to Troubleshooting" title="Direct link to Troubleshooting" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="api-authentication-errors">API Authentication Errors<a href="https://pradeepkg.github.io/RSA/pam/beyondtrust/#api-authentication-errors" class="hash-link" aria-label="Direct link to API Authentication Errors" title="Direct link to API Authentication Errors" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="api-authentication-errors">API Authentication Errors<a href="https://pradeepkg.github.io/RSA/pam/beyondtrust/#api-authentication-errors" class="hash-link" aria-label="Direct link to API Authentication Errors" title="Direct link to API Authentication Errors" translate="no">​</a></h4>
 <ul>
-<li class="">Verify that the Client ID and Client Secret are correct.</li>
+<li class=""><strong>Root Cause</strong>: Invalid Client ID or Client Secret, unassigned API user group, or unauthorized source IP address.</li>
+<li class=""><strong>Resolution</strong>:<!-- -->
+<ol>
+<li class="">Verify that the Client ID and Client Secret match the application user credentials.</li>
 <li class="">Confirm that the API user is assigned to the <code>API Access</code> user group.</li>
-<li class="">Confirm that the API access policy is configured with the correct IP address or CIDR range for the RSA G&amp;L instance.</li>
+<li class="">Confirm that the API access policy CIDR range includes the IP address of the RSA G&amp;L instance and all remote agents.</li>
+</ol>
+</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="unable-to-retrieve-passwords">Unable to Retrieve Passwords<a href="https://pradeepkg.github.io/RSA/pam/beyondtrust/#unable-to-retrieve-passwords" class="hash-link" aria-label="Direct link to Unable to Retrieve Passwords" title="Direct link to Unable to Retrieve Passwords" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="unable-to-retrieve-passwords">Unable to Retrieve Passwords<a href="https://pradeepkg.github.io/RSA/pam/beyondtrust/#unable-to-retrieve-passwords" class="hash-link" aria-label="Direct link to Unable to Retrieve Passwords" title="Direct link to Unable to Retrieve Passwords" translate="no">​</a></h4>
 <ul>
+<li class=""><strong>Root Cause</strong>: Missing role assignment on the smart group, approval schedule requirement, or API access disabled on accounts.</li>
+<li class=""><strong>Resolution</strong>:<!-- -->
+<ol>
 <li class="">Confirm that the <code>Requestor</code> role is assigned to the <code>G&amp;L</code> smart group.</li>
-<li class="">Verify that the access policy is configured to auto-approve requests.</li>
-<li class="">Confirm that API access is enabled on the managed accounts.</li>
+<li class="">Verify that the access policy is configured to auto-approve requests across all hours.</li>
+<li class="">Confirm that API access is enabled on the managed accounts in BeyondTrust Account Settings.</li>
+</ol>
+</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="access-denied-errors">Access Denied Errors<a href="https://pradeepkg.github.io/RSA/pam/beyondtrust/#access-denied-errors" class="hash-link" aria-label="Direct link to Access Denied Errors" title="Direct link to Access Denied Errors" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="access-denied-errors">Access Denied Errors<a href="https://pradeepkg.github.io/RSA/pam/beyondtrust/#access-denied-errors" class="hash-link" aria-label="Direct link to Access Denied Errors" title="Direct link to Access Denied Errors" translate="no">​</a></h4>
 <ul>
-<li class="">Verify that the <code>API Access</code> user group has <strong>Read Only</strong> permissions for <strong>Password Safe Account Management</strong> and <strong>Password Safe System Management</strong>.</li>
+<li class=""><strong>Root Cause</strong>: Missing feature permissions for the user group.</li>
+<li class=""><strong>Resolution</strong>:<!-- -->
+<ol>
+<li class="">Verify that the <code>API Access</code> user group has <strong>Read Only</strong> permissions granted for both <strong>Password Safe Account Management</strong> and <strong>Password Safe System Management</strong>.</li>
+</ol>
+</li>
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="references">References<a href="https://pradeepkg.github.io/RSA/pam/beyondtrust/#references" class="hash-link" aria-label="Direct link to References" title="Direct link to References" translate="no">​</a></h2>
+<p><strong>BeyondTrust Documentation</strong></p>
 <ul>
-<li class=""><a href="https://docs.databee.buzz/docs/beyondtrust-password-safe" target="_blank" rel="noopener noreferrer" class="">BeyondTrust Password Safe - DataBee Documentation</a></li>
+<li class=""><a href="https://www.beyondtrust.com/docs/password-safe/ps-on-prem/api/api-v3/index.htm" target="_blank" rel="noopener noreferrer" class="">BeyondTrust Password Safe REST API Guide</a>: REST API v3 authentication, endpoints, and credentials retrieval.</li>
+<li class=""><a href="https://www.beyondtrust.com/docs/password-safe/index.htm" target="_blank" rel="noopener noreferrer" class="">BeyondTrust Password Safe Administration</a>: User groups, Smart Groups, and access policy configuration.</li>
+<li class=""><a href="https://www.beyondtrust.com/docs/password-safe/ps-on-prem/index.htm" target="_blank" rel="noopener noreferrer" class="">BeyondTrust Password Safe Managed Accounts</a>: Enabling API access and configuring auto-approve access policies.</li>
+</ul>
+<p><strong>Industry Standards</strong></p>
+<ul>
+<li class=""><a href="https://www.rfc-editor.org/rfc/rfc6749#section-4.4" target="_blank" rel="noopener noreferrer" class="">RFC 6749 Section 4.4: Client Credentials Grant</a>: OAuth 2.0 machine-to-machine authentication specification.</li>
 </ul>]]></content:encoded>
             <category>BeyondTrust</category>
             <category>PAM</category>
