@@ -1,0 +1,24 @@
+# RSA Governance & Lifecycle (G&L) Developer Portal
+
+> The complete developer ecosystem and technical reference for RSA Governance & Lifecycle (formerly Aveksa / SecurID G&L). This documentation covers REST APIs, SaaS collectors, AFX provisioning connectors, Privileged Access Management (PAM) plugins, and core deployment architectures.
+
+## Core Documentation Sections
+
+- [REST API Reference](https://pradeepkg.github.io/RSA/docs/apireference/): Complete specification covering 80+ REST API endpoints, schemas, authentication mechanisms, parameters, request/response models, and error codes for programmatic lifecycle management.
+- [SaaS & System Collectors](https://pradeepkg.github.io/RSA/blog/): Step-by-step guides for collecting user accounts, permissions, groups, and entitlements across 114+ cloud applications and on-premises infrastructure. Includes Okta, DocuSign, Zendesk, Salesforce, AWS, ServiceNow, Workday, and custom REST collectors.
+- [AFX Provisioning Connectors](https://pradeepkg.github.io/RSA/connectors/): Configuration and deployment guides for Active Feature Framework (AFX) fulfillment connectors, automated account creation, de-provisioning, password resets, and Active Directory LDAP integration.
+- [Core Concepts & Architecture](https://pradeepkg.github.io/RSA/basics/): Foundational architecture guides, Active Directory service account security models, attribute synchronization rules, custom JDBC driver installations, and JavaScript/Groovy Data Processor rules.
+- [PAM Plugins](https://pradeepkg.github.io/RSA/pam/): Integration guides for connecting Privileged Access Management systems with RSA G&L.
+- [Deployment Guides](https://pradeepkg.github.io/RSA/deployment/): Installation, upgrade, high availability, and containerized deployment documentation.
+
+## Key Developer Resources
+
+- Documentation Portal: https://pradeepkg.github.io/RSA/
+- Collector Guides Index: https://pradeepkg.github.io/RSA/blog/
+- AFX Connectors Index: https://pradeepkg.github.io/RSA/connectors/
+- REST API Reference: https://pradeepkg.github.io/RSA/docs/apireference/
+- Active Directory Connector: https://pradeepkg.github.io/RSA/connectors/afx-ad/
+- Okta Collector: https://pradeepkg.github.io/RSA/blog/okta/
+- Zendesk Collector: https://pradeepkg.github.io/RSA/blog/zendesk/
+- DocuSign Collector: https://pradeepkg.github.io/RSA/blog/docusign/
+

@@ -1,0 +1,28 @@
+# Robots.txt for RSA Governance & Lifecycle Developer Portal
+User-agent: *
+Allow: /
+Allow: /RSA/
+Disallow: /RSA/search
+
+# AI Search & Retrieval Crawlers (ChatGPT Search, Claude, Perplexity, Google Gemini)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Canonical Sitemap
+Sitemap: https://pradeepkg.github.io/RSA/sitemap.xml
+

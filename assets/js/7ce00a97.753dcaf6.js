@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdocku=globalThis.webpackChunkdocku||[]).push([[6659],{84451(e){e.exports=JSON.parse('{"metadata":{"permalink":"/RSA/pam","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Privileged Access Management (PAM) plugin integrations for RSA Governance & Lifecycle.","blogTitle":"PAM Plugins"}}')}}]);
