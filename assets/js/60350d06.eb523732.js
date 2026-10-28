@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdocku=globalThis.webpackChunkdocku||[]).push([[6551],{20648(e){e.exports=JSON.parse('{"metadata":{"permalink":"/RSA/collectors","page":1,"postsPerPage":31,"totalPages":1,"totalCount":31,"blogDescription":"Step-by-step account and entitlement collection guides for RSA Governance & Lifecycle.","blogTitle":"SaaS & System Collectors"}}')}}]);
